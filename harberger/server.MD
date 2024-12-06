@@ -4,9 +4,7 @@ Here listed is the set of events (divided by phases) sent by the server to the p
 ## All Phases
 
 ### phase-transition
-
 All players are informed that a new phase (and possibly round) has begun with this message. It is received at the beginning of each phase.
-
 ```
 {
     "type": "phase-transition",
@@ -16,7 +14,12 @@ All players are informed that a new phase (and possibly round) has begun with th
     }
 },
 ```
+### phase-instructions
+Legacy: ignore. The phase instructions are now fetched from a static file.
 
+```
+{}
+```
 ## Phase #0
 
 ### 

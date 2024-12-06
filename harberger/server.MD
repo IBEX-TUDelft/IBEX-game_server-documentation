@@ -337,7 +337,7 @@ Even though players don't do anything during this very short lived phase, they a
 ```
 ### value-signals
 The social profit (sum of taxes paid) is divided into shares and some are returned to the community, which can trade them before theif final value (depending on the taxes really collected) is made known.
-During this phase the signals (indicators of what the final price might be) are made known to players, so that they can get some orientation how to move on this market. The public signal is known to everyone, each player receives private signals (just known as signals). Only the winning condition is of interest in Harberget during the market phase. Notice that the taxRate is updated for later use.
+During this phase the signals (indicators of what the final price might be) are made known to players, so that they can get some orientation how to move on this market. The public signal is known to everyone, each player receives private signals (just known as signals). Only the winning condition is of interest in Harberger during the market phase. Notice that the taxRate is updated for later use.
 ```
 {
     "type": "value-signals",

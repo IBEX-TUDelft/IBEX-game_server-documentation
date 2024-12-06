@@ -679,6 +679,7 @@ A complete report on the player's performance during the round.
 ```
 ### reward
 A reward won by a player. This happens only when the game is over.
+```
 {
     "type": "reward",
     "data": {
@@ -695,6 +696,7 @@ A reward won by a player. This happens only when the game is over.
         "paymentToken": "HV"
     }
 }
+```
 ### game-over
 The game is over. Sent only after the final round is complete.
 ```

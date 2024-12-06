@@ -137,6 +137,46 @@ After everyone has clicked ready, the roles are assigned. This message contains 
                 }
             }
 ```
+### players-known
+A list of player numbers, roles and tags describing the other players, quite useful to communicate and hoard information on others.
+Roles:
+1. Owner
+2. Developer
+3. Speculator
+```
+{
+    "type": "players-known",
+    "data": {
+        "players": [
+            {
+                "number": 1,
+                "role": 3,
+                "tag": "Owner 1"
+            },
+            {
+                "number": 2,
+                "role": 2,
+                "tag": "Developer"
+            },
+            {
+                "number": 3,
+                "role": 3,
+                "tag": "Owner 2"
+            },
+            {
+                "number": 4,
+                "role": 1,
+                "tag": "Speculator 1"
+            },
+            {
+                "number": 5,
+                "role": 1,
+                "tag": "Speculator 2"
+            }
+        ]
+    }
+}
+```
 ## Phase #1
 
 ## Phase #2

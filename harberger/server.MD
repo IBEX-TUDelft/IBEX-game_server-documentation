@@ -20,9 +20,26 @@ Legacy: ignore. The phase instructions are now fetched from a static file.
 ```
 {}
 ```
+### set-timer
+Informs the player that the current phase has a timer, and it will end at a precise moment (expressed millis since epoc)
+```
+{
+        "type": "set-timer",
+        "data": {
+            "end": 1733481461657
+        }
+}
+```
 ## Phase #0
 
-### 
+### ready-received
+After a player click "ready", the server acknowledges it has received the status update.
+```
+{
+    "type": "ready-received",
+    "data": {}
+}
+```
 
 ## Phase #1
 

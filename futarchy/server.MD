@@ -261,7 +261,36 @@ At this stage the winning condition is not yet known, unlike it happens with Har
             }
 ```
 ## Phase 3
+### speculation-received
+Just a feedback message from the server to a speculator that his choice has been received.
+```
+{
+    "type": "speculation-received",
+    "data": {}
+}
+```
 ## Phase 4
+### value-signals
+The social profit (sum of taxes paid) is divided into shares and some are returned to the community, which can trade them before theif final value (depending on the taxes really collected) is made known.
+During this phase the signals (indicators of what the final price might be) are made known to players, so that they can get some orientation how to move on this market. The public signal is known to everyone, each player receives private signals (just known as signals). Both conditions are of interest in Futarchy during the market phase. Notice that the taxRate is updated for later use.
+```
+{
+    "type": "value-signals",
+    "data": {
+        "signals": [
+            10425,
+            6092,
+            0
+        ],
+        "publicSignal": [
+            4719,
+            4002.9,
+            0
+        ],
+        "taxRate": 33
+    }
+}
+```
 ## Phase 5
 ## Phase 6
 ## Phase 7

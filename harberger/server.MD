@@ -265,7 +265,53 @@ At this stage the winningCondition is known, since it is calculated on the sum o
 }
 ```
 ## Phase #3
-
+### speculation-received
+Just a feedback message from the server to a speculator that his choice has been received.
+```
+{
+    "type": "speculation-received",
+    "data": {}
+}
+```
+### profit
+This kind of message informs that there was a profit. It is just informative and can be disregarded in favor of the round summary coming later at the end of the round. The format differs depending on the recipient. Speculators will riceive one profit notification per speculation attempt (they can strike multiple target in one speculation phase)
+Speculator format:
+```
+{
+    "type": "profit",
+    "data": {
+        "round": 1,
+        "owner": 3,
+        "sniped": true,
+        "snipeProfit": 1000,
+        "condition": 0,
+        "declaration": 480000
+    }
+}
+```
+Owner format (notice that the snipeProfit is the profit for the sniper, so its a loss for the owner):
+```
+{
+    "type": "profit",
+    "data": {
+        "round": 1,
+        "phase": 4,
+        "property": 3,
+        "condition": 0,
+        "value": 482000,
+        "declaration": 480000,
+        "sniped": true,
+        "speculator": [
+            5
+        ],
+        "snipeProfit": 1000,
+        "taxes": 4800,
+        "owner": 3,
+        "role": 3,
+        "total": 476200
+    }
+}
+```
 ## Phase #4
 
 ## Phase #5

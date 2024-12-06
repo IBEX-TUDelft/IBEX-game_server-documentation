@@ -22,7 +22,7 @@ Legacy: ignore. The phase instructions are now fetched from a static file.
 {}
 ```
 ### set-timer
-Informs the player that the current phase has a timer, and it will end at a precise moment (expressed millis since epoc)
+Informs the player that the current phase has a timer, and it will end at a precise moment (expressed millis since epoc). It should create some pressure on the player.
 ```
 {
         "type": "set-timer",
@@ -30,6 +30,14 @@ Informs the player that the current phase has a timer, and it will end at a prec
             "end": 1733481461657
         }
 }
+```
+### reset-timer
+Informs when a timer is not longer necessary.
+```
+{
+    "type": "reset-timer",
+    "data": {}
+},
 ```
 ## Phase #0
 
@@ -180,7 +188,14 @@ Roles:
 ## Phase #1
 
 ## Phase #2
-
+### declaration-received
+Feedback from the server after a player (owner or developer) submits a declaration
+```
+{
+    "type": "declaration-received",
+    "data": {}
+}
+```
 ## Phase #3
 
 ## Phase #4

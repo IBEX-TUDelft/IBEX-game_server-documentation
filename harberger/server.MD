@@ -360,7 +360,80 @@ During this phase the signals (indicators of what the final price might be) are 
 ## Phase #5
 
 ## Phase #6
-
+### add-order
+Informs all players that someone has added an order.
+```
+{
+    "type": "add-order",
+    "data": {
+        "order": {
+            "id": 1,
+            "sender": 2,
+            "price": 9850,
+            "quantity": 1,
+            "type": "ask",
+            "condition": 0
+        }
+    }
+}
+```
+### asset-movement
+Inform the players involved that a trade has happened, and that they should update their local wallets.
+```
+{
+    "type": "asset-movement",
+    "data": {
+        "condition": 0,
+        "movement": {
+            "type": "sale",
+            "quantity": 1,
+            "price": 9850,
+            "total": 9850
+        },
+        "balance": 309850,
+        "shares": 29
+    }
+}
+```
+### contract-fulfilled
+Informs all players that a trade has happened.
+```
+{
+    "type": "contract-fulfilled",
+    "data": {
+        "from": 2,
+        "to": 4,
+        "price": 9850,
+        "condition": 0,
+        "median": 9850
+    }
+}
+```
+### delete-order
+Informs all players that an order is not available any more.
+```
+{
+    "type": "delete-order",
+    "data": {
+        "order": {
+            "id": 1,
+            "type": "ask",
+            "condition": 0
+        }
+    }
+}
+```
+### order-refused
+An order can be refused for several reasons (like lack of funds, or all shares already for sale)
+```
+{
+    "type": "order-refused",
+    "data": {
+        "message": `Could not fulfill your order: not enough funds`,
+        "placeholder": "could-not-find-bids"
+    }
+}
+```
 ## Phase #7
 
 ## Phase #8

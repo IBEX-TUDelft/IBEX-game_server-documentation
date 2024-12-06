@@ -313,7 +313,28 @@ Owner format (notice that the snipeProfit is the profit for the sniper, so its a
 }
 ```
 ## Phase #4
-
+### first-snipes
+Even though players don't do anything during this very short lived phase, they all receive a notification on speculation actions (snipes) inflicted or suffered. They come as a list with player (attacker) and target. The profit (for the speculator) is also indicated
+```
+{
+    "type": "first-snipes",
+    "data": {
+        "snipes": [
+            {
+                "player": {
+                    "number": 4,
+                    "role": 1
+                },
+                "target": {
+                    "number": 1,
+                    "role": 3
+                },
+                "profit": 6000
+            }
+        ]
+    }
+}
+```
 ## Phase #5
 
 ## Phase #6

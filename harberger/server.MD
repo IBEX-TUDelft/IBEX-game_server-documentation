@@ -196,6 +196,74 @@ Feedback from the server after a player (owner or developer) submits a declarati
     "data": {}
 }
 ```
+### declarations-published
+After all property owners (including the developer) have published they declarations, they are made public to everyone. Speculators will use this information in the next phase to target owners who have understated the value of their property.
+Relevant fields:
+* number: the property owner number. All other identificators (id, name, owner) are ignored.
+* d: declaration per condition: notice that the third condition is currently not used.
+* available: currently not used due to a change in the game mechanics. Before only one speculator could strike the same property (per condition)
+At this stage the winningCondition is known, since it is calculated on the sum of the declarations (social profit) per condition
+```
+{
+    "type": "declarations-published",
+    "data": {
+        "declarations": [
+            {
+                "id": 1,
+                "name": "Parental Dinosaur Lot",
+                "owner": "Coffee",
+                "role": 3,
+                "number": 1,
+                "d": [
+                    574000,
+                    208000,
+                    0
+                ],
+                "available": [
+                    true,
+                    true,
+                    true
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Stupid Elk Lot",
+                "owner": "Rose",
+                "role": 2,
+                "number": 2,
+                "d": [
+                    380000,
+                    810000,
+                    0
+                ],
+                "available": [
+                    true,
+                    true,
+                    true
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Coherent Ant Lot",
+                "owner": "Ivory",
+                "role": 3,
+                "number": 3,
+                "d": [
+                    480000,
+                    191000,
+                    0
+                ],
+                "available": [
+                    true,
+                    true,
+                    true
+                ]
+            }
+        ],
+        "winningCondition": 0
+    }
+}
+```
 ## Phase #3
 
 ## Phase #4

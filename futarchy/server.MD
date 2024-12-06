@@ -12,7 +12,7 @@ All players are informed that a new phase (and possibly round) has begun with th
         "round": 1,
         "phase": 0
     }
-},
+}
 ```
 ### phase-instructions
 Legacy: ignore. The phase instructions are now fetched from a static file.

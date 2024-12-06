@@ -293,6 +293,420 @@ During this phase the signals (indicators of what the final price might be) are 
 ```
 ## Phase 5
 ## Phase 6
+### add-order
+Informs all players that someone has added an order. Since multiple markets are open at the same time (one per condition), the client has to keep in mind which order belongs to which market
+```
+{
+    "type": "add-order",
+    "data": {
+        "order": {
+            "id": 1,
+            "sender": 5,
+            "price": 6500,
+            "quantity": 1,
+            "type": "ask",
+            "condition": 1
+        }
+    }
+}
+```
+### asset-movement
+Inform the players involved that a trade has happened, and that they should update their local wallets for that condition.
+```
+{
+    "type": "asset-movement",
+    "data": {
+        "condition": 0,
+        "movement": {
+            "type": "sale",
+            "quantity": 1,
+            "price": 9850,
+            "total": 9850
+        },
+        "balance": 309850,
+        "shares": 29
+    }
+}
+```
+### contract-fulfilled
+Informs all players that a trade (in the context of one condition) has happened.
+```
+{
+    "type": "contract-fulfilled",
+    "data": {
+        "from": 2,
+        "to": 4,
+        "price": 9850,
+        "condition": 0,
+        "median": 9850
+    }
+}
+```
+### delete-order
+Informs all players that an order for one condition is not available any more.
+```
+{
+    "type": "delete-order",
+    "data": {
+        "order": {
+            "id": 1,
+            "type": "ask",
+            "condition": 0
+        }
+    }
+}
+```
+### order-refused
+An order can be refused for several reasons (like lack of funds, or all shares already for sale)
+```
+{
+    "type": "order-refused",
+    "data": {
+        "message": `Could not fulfill your order: not enough funds`,
+        "placeholder": "could-not-find-bids"
+    }
+}
+```
+### winning-condition
+At the end of the market phase it becomes apparent which is the winning condition
+```
+{
+    "type": "winning-condition",
+    "data": {
+        "winningCondition": 0
+    }
+}
+```
+### profit
+This kind of message informs that there was a profit. It is just informative and can be disregarded in favor of the round summary coming later at the end of the round. The format differs depending on the recipient. Speculators will riceive one profit notification per speculation attempt (they can strike multiple target in one speculation phase).
+Please note the difference with Harbeger: the profit there was known earlier. Here one has to wait to know which is the winning condition to see what world is selected (only the transactions and speculations under that condition will happen) before any profit can materialize.
+Speculator format:
+```
+{
+    "type": "profit",
+    "data": {
+        "round": 1,
+        "owner": 3,
+        "sniped": true,
+        "snipeProfit": 1000,
+        "condition": 0,
+        "declaration": 480000
+    }
+}
+```
+Owner format (notice that the snipeProfit is the profit for the sniper, so its a loss for the owner):
+```
+{
+    "type": "profit",
+    "data": {
+        "round": 1,
+        "phase": 4,
+        "property": 3,
+        "condition": 0,
+        "value": 482000,
+        "declaration": 480000,
+        "sniped": true,
+        "speculator": [
+            5
+        ],
+        "snipeProfit": 1000,
+        "taxes": 4800,
+        "owner": 3,
+        "role": 3,
+        "total": 476200
+    }
+}
+```
+### first-snipes
+Information on the speculation actions (snipes) inflicted or suffered that really happened: those executed under the winning condition, the others are discarded. They come as a list with player (attacker) and target. The profit (for the speculator) is also indicated
+```
+{
+    "type": "first-snipes",
+    "data": {
+        "snipes": [
+            {
+                "player": {
+                    "number": 4,
+                    "role": 1
+                },
+                "target": {
+                    "number": 1,
+                    "role": 3
+                },
+                "profit": 6000
+            }
+        ]
+    }
+}
+```
 ## Phase 7
+### declaration-received
+Feedback from the server after a player (owner or developer) submits a declaration
+```
+{
+    "type": "declaration-received",
+    "data": {}
+}
+```
+### declarations-published
+See the same in phase 2
+```
+{
+    "type": "declarations-published",
+    "data": {
+        "declarations": [
+            {
+                "id": 1,
+                "name": "Parental Dinosaur Lot",
+                "owner": "Coffee",
+                "role": 3,
+                "number": 1,
+                "d": [
+                    583000,
+                    0,
+                    0
+                ],
+                "available": [
+                    true,
+                    false,
+                    false
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Stupid Elk Lot",
+                "owner": "Rose",
+                "role": 2,
+                "number": 2,
+                "d": [
+                    384000,
+                    0,
+                    0
+                ],
+                "available": [
+                    true,
+                    false,
+                    false
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Coherent Ant Lot",
+                "owner": "Ivory",
+                "role": 3,
+                "number": 3,
+                "d": [
+                    481000,
+                    0,
+                    0
+                ],
+                "available": [
+                    true,
+                    false,
+                    false
+                ]
+            }
+        ],
+        "winningCondition": 0
+    }
+}
+```
 ## Phase 8
+### speculation-received
+Just a feedback message from the server to a speculator that his choice has been received.
+```
+{
+    "type": "speculation-received",
+    "data": {}
+}
+```
+### profit
+This kind of message informs that there was a profit. It is just informative and can be disregarded in favor of the round summary coming later at the end of the round. The format differs depending on the recipient. Speculators will riceive one profit notification per speculation attempt (they can strike multiple target in one speculation phase)
+Speculator format:
+```
+{
+    "type": "profit",
+    "data": {
+        "round": 1,
+        "owner": 3,
+        "sniped": true,
+        "snipeProfit": 1000,
+        "condition": 0,
+        "declaration": 480000
+    }
+}
+```
+Owner format (notice that the snipeProfit is the profit for the sniper, so its a loss for the owner):
+```
+{
+    "type": "profit",
+    "data": {
+        "round": 1,
+        "phase": 4,
+        "property": 3,
+        "condition": 0,
+        "value": 482000,
+        "declaration": 480000,
+        "sniped": true,
+        "speculator": [
+            5
+        ],
+        "snipeProfit": 1000,
+        "taxes": 4800,
+        "owner": 3,
+        "role": 3,
+        "total": 476200
+    }
+}
+```
+### final-price
+This event does not appear in the first speculation phase (phase 3). It informs all players on what is the final share price for the winning condition.
+```
+{
+    "type": "final-price",
+    "data": {
+        "price": 4778.4,
+        "winningCondition": 0
+    }
+}
+```
+### tax-income
+How much a player has made by keeping the tax shares. A better report with all profit/losses will come later.
+```
+{
+    "type": "tax-income",
+    "data": {
+        "amount": 23449,
+        "condition": 0
+    }
+}
+```
+### total-profit
+How much a player a player has made during the round. A better report with all profit/losses will come later.
+```
+{
+    "type": "total-profit",
+    "data": {
+        "amount": 990569
+    }
+}
+```
+### second-snipes
+A list of speculations happened in the second speculation phase where a specific player was involved (as attacker or target).
+```
+{
+    "type": "second-snipes",
+    "data": {
+        "snipes": [
+            {
+                "player": {
+                    "number": 4,
+                    "role": 1
+                },
+                "target": {
+                    "number": 1,
+                    "role": 3
+                },
+                "profit": 750
+            },
+            {
+                "player": {
+                    "number": 5,
+                    "role": 1
+                },
+                "target": {
+                    "number": 1,
+                    "role": 3
+                },
+                "profit": 750
+            }
+        ]
+    }
+}
+```
 ## Phase 9
+### round-end
+The round is about to end and the client should start making preparations for the next round.
+```
+{
+    "type": "round-end",
+    "data": {
+        "round": 1
+    }
+}
+```
+### round-summary
+A complete report on the player's performance during the round. This report can be used for benchmarking the agent performance.
+```
+{
+    "type": "round-summary",
+    "data": {
+        "round": 1,
+        "condition": 0,
+        "value": 586000,
+        "firstDeclaration": 574000,
+        "firstTaxes": 5740,
+        "firstRepurchase": -6000,
+        "snipes": [
+            {
+                "player": {
+                    "number": 4,
+                    "role": 1
+                },
+                "target": {
+                    "number": 1,
+                    "role": 3
+                },
+                "profit": 750
+            },
+            {
+                "player": {
+                    "number": 5,
+                    "role": 1
+                },
+                "target": {
+                    "number": 1,
+                    "role": 3
+                },
+                "profit": 750
+            }
+        ],
+        "market": {
+            "balance": 50000,
+            "shares": 7,
+            "price": 4778.4
+        },
+        "secondDeclaration": 583000,
+        "secondTaxes": 192390,
+        "secondRepurchase": -1500
+    }
+}
+```
+### reward
+A reward won by a player. This happens only when the game is over. This report can be used for benchmarking the agent performance.
+```
+{
+    "type": "reward",
+    "data": {
+        "number": 1,
+        "round": 1,
+        "reward": 38.19,
+        "basePoints": 200000,
+        "showupFee": 5,
+        "gameFee": 33.19,
+        "profit": 463818.8,
+        "points": 663818.8,
+        "factor": 20000,
+        "exchange": 0.00005,
+        "paymentToken": "HV"
+    }
+}
+```
+### game-over
+The game is over. Sent only after the final round is complete.
+```
+{
+    "type": "game-over",
+    "data": {}
+}
+```

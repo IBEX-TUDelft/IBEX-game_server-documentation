@@ -37,36 +37,15 @@ Should be "message".
 
 ## Common
 
-### Phase Timeout
-
-An event automatically triggered by the server when a phase's timeout is triggered.
-
-```
-{
-    "content": {
-        "phase": 1,
-        "round": 0
-    },
-    "type": "phase-timeout",
-    "phase": 1,
-    "round": 0
-}
-```
-
 ### Join
 
 An event triggered by a player joining the game. A player may rejoin the game later on in every phase.
 
 ```
 {
-    "content": {
-        "gameId": 149,
-        "type": "join",
-        "recovery": "5lmcp6739wck6fbhuf1y7s59537hrgek4a9dxbhuflod0fs6mu90kya1yf9dc540"
-    },
-    "phase": 0,
-    "round": 0,
-    "type": "message"
+    "gameId": 149,
+    "type": "join",
+    "recovery": "5lmcp6739wck6fbhuf1y7s59537hrgek4a9dxbhuflod0fs6mu90kya1yf9dc540"
 }
 ```
 
@@ -78,15 +57,8 @@ The game waits until all players declare themselves ready.
 
 ```
 {
-    "content": {
-        "gameId": 149,
-        "type": "player-is-ready"
-    },
-    "number": 2,
-    "tag": "Developer",
-    "phase": 0,
-    "round": 0,
-    "type": "message"
+    "gameId": 149,
+    "type": "player-is-ready"
 }
 ```
 
@@ -100,20 +72,13 @@ Each player owning a property should declare its expected revenue for the round.
 
 ```
 {
-    "content": {
-        "gameId": 149,
-        "type": "declare",
-        "declaration": [
-            598000,
-            215000,
-            0
-        ]
-    },
-    "number": 3,
-    "tag": "Owner 2",
-    "phase": 2,
-    "round": 0,
-    "type": "message"
+    "gameId": 149,
+    "type": "declare",
+    "declaration": [
+        598000,
+        215000,
+        0
+    ]
 }
 ```
 
@@ -128,22 +93,15 @@ In the condition array there is a list of owners whose declaration is to be chal
 
 ```
 {
-    "content": {
-        "gameId": 888,
-        "type": "done-speculating",
-        "snipe": [
-            [
-                2,
-                3
-            ],
-            []
-        ]
-    },
-    "number": 4,
-    "tag": "Speculator 1",
-    "phase": 3,
-    "round": 1,
-    "type": "message"
+    "gameId": 888,
+    "type": "done-speculating",
+    "snipe": [
+        [
+            2,
+            3
+        ],
+        []
+    ]
 }
 ```
 
@@ -163,22 +121,15 @@ During the market phase it is possible to post and cancel orders.
 
 ```
 {
-    "content": {
-        "order": {
-            "price": 3560,
-            "quantity": 1,
-            "condition": 0,
-            "type": "ask",
-            "now": false
-        },
-        "gameId": 888,
-        "type": "post-order"
+    "order": {
+        "price": 3560,
+        "quantity": 1,
+        "condition": 0,
+        "type": "ask",
+        "now": false
     },
-    "number": 5,
-    "tag": "Speculator 2",
-    "phase": 6,
-    "round": 1,
-    "type": "message"
+    "gameId": 888,
+    "type": "post-order"
 }
 ```
 
@@ -200,19 +151,12 @@ Each submitted order, if accepted, receives an id, which is made public through 
 
 ```
 {
-    "content": {
-        "order": {
-            "id": 4,
-            "condition": 0
-        },
-        "gameId": 261,
-        "type": "cancel-order"
+    "order": {
+        "id": 4,
+        "condition": 0
     },
-    "number": 6,
-    "tag": "Owner 5",
-    "phase": 6,
-    "round": 0,
-    "type": "message"
+    "gameId": 261,
+    "type": "cancel-order"
 }
 ```
 
@@ -224,20 +168,13 @@ In phase 7 a second declaration is submitted, similarly to phase 2.
 
 ```
 {
-    "content": {
-        "gameId": 149,
-        "type": "declare",
-        "declaration": [
-            598000,
-            215000,
-            0
-        ]
-    },
-    "number": 3,
-    "tag": "Owner 2",
-    "phase": 2,
-    "round": 0,
-    "type": "message"
+    "gameId": 149,
+    "type": "declare",
+    "declaration": [
+        598000,
+        215000,
+        0
+    ]
 }
 ```
 
@@ -249,22 +186,15 @@ In phase 8 happens a new round of speculations.
 
 ```
 {
-    "content": {
-        "gameId": 888,
-        "type": "done-speculating",
-        "snipe": [
-            [
-                2,
-                3
-            ],
-            []
-        ]
-    },
-    "number": 4,
-    "tag": "Speculator 1",
-    "phase": 3,
-    "round": 1,
-    "type": "message"
+    "gameId": 888,
+    "type": "done-speculating",
+    "snipe": [
+        [
+            2,
+            3
+        ],
+        []
+    ]
 }
 ```
 

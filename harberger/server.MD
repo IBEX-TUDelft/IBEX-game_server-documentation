@@ -19,7 +19,10 @@ All players are informed that a new phase (and possibly round) has begun with th
 Legacy: ignore. The phase instructions are now fetched from a static file.
 
 ```
-{}
+{
+    "type": "phase-instructions",
+    "data": {}
+}
 ```
 ### set-timer
 Informs the player that the current phase has a timer, and it will end at a precise moment (expressed millis since epoc). It should create some pressure on the player.

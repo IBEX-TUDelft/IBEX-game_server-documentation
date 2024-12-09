@@ -41,7 +41,7 @@ Informs when a timer is not longer necessary.
     "data": {}
 },
 ```
-## Phase 0
+## Phase 0 (Introduction)
 ### ready-received
 After a player click "ready", the server acknowledges it has received the status update.
 ```
@@ -186,8 +186,8 @@ Roles:
     }
 }
 ```
-## Phase 1
-## Phase 2
+## Phase 1 (Presentation)
+## Phase 2 (Declaration)
 ### declaration-received
 Feedback from the server after a player (owner or developer) submits a declaration
 ```
@@ -263,7 +263,7 @@ At this stage the winning condition is not yet known, unlike it happens with Har
                 }
             }
 ```
-## Phase 3
+## Phase 3 (Speculation)
 ### speculation-received
 Just a feedback message from the server to a speculator that his choice has been received.
 ```
@@ -272,7 +272,7 @@ Just a feedback message from the server to a speculator that his choice has been
     "data": {}
 }
 ```
-## Phase 4
+## Phase 4 (Reconciliation)
 ### value-signals
 The social profit (sum of taxes paid) is divided into shares and some are returned to the community, which can trade them before theif final value (depending on the taxes really collected) is made known.
 During this phase the signals (indicators of what the final price might be) are made known to players, so that they can get some orientation how to move on this market. The public signal is known to everyone, each player receives private signals (just known as signals). Both conditions are of interest in Futarchy during the market phase. Notice that the taxRate is updated for later use.
@@ -294,8 +294,8 @@ During this phase the signals (indicators of what the final price might be) are 
     }
 }
 ```
-## Phase 5
-## Phase 6
+## Phase 5 (Transition)
+## Phase 6 (Market)
 ### add-order
 Informs all players that someone has added an order. Since multiple markets are open at the same time (one per condition), the client has to keep in mind which order belongs to which market
 ```
@@ -442,7 +442,7 @@ Information on the speculation actions (snipes) inflicted or suffered that reall
     }
 }
 ```
-## Phase 7
+## Phase 7 (Declaration)
 ### declaration-received
 Feedback from the server after a player (owner or developer) submits a declaration
 ```
@@ -514,7 +514,7 @@ See the same in phase 2
     }
 }
 ```
-## Phase 8
+## Phase 8 (Speculation)
 ### speculation-received
 Just a feedback message from the server to a speculator that his choice has been received.
 ```
@@ -627,7 +627,7 @@ A list of speculations happened in the second speculation phase where a specific
     }
 }
 ```
-## Phase 9
+## Phase 9 (Results)
 ### round-end
 The round is about to end and the client should start making preparations for the next round.
 ```

@@ -42,7 +42,7 @@ Informs when a timer is not longer necessary.
     "data": {}
 },
 ```
-## Phase #0
+## Phase #0 (Introduction)
 
 ### ready-received
 After a player click "ready", the server acknowledges it has received the status update.
@@ -188,9 +188,9 @@ Roles:
     }
 }
 ```
-## Phase #1
+## Phase #1 (Presentation)
 
-## Phase #2
+## Phase #2 (Declaration)
 ### declaration-received
 Feedback from the server after a player (owner or developer) submits a declaration
 ```
@@ -267,7 +267,7 @@ At this stage the winningCondition is known, since it is calculated on the sum o
     }
 }
 ```
-## Phase #3
+## Phase #3 (Speculation)
 ### speculation-received
 Just a feedback message from the server to a speculator that his choice has been received.
 ```
@@ -315,7 +315,7 @@ Owner format (notice that the snipeProfit is the profit for the sniper, so its a
     }
 }
 ```
-## Phase #4
+## Phase #4 (Reconciliation)
 ### first-snipes
 Even though players don't do anything during this very short lived phase, they all receive a notification on speculation actions (snipes) inflicted or suffered. They come as a list with player (attacker) and target. The profit (for the speculator) is also indicated
 ```
@@ -360,9 +360,9 @@ During this phase the signals (indicators of what the final price might be) are 
     }
 }
 ```
-## Phase #5
+## Phase #5 (Transition)
 
-## Phase #6
+## Phase #6 (Market)
 ### add-order
 Informs all players that someone has added an order.
 ```
@@ -437,7 +437,7 @@ An order can be refused for several reasons (like lack of funds, or all shares a
     }
 }
 ```
-## Phase #7
+## Phase #7 (Declaration)
 ### declaration-received
 Feedback from the server after a player (owner or developer) submits a declaration
 ```
@@ -509,7 +509,7 @@ See the same in phase 2
     }
 }
 ```
-## Phase #8
+## Phase #8 (Speculation)
 ### speculation-received
 Just a feedback message from the server to a speculator that his choice has been received.
 ```
@@ -622,7 +622,7 @@ A list of speculations happened in the second speculation phase where a specific
     }
 }
 ```
-## Phase #9
+## Phase #9 (Results)
 ### round-end
 The round is about to end and the client should start making preparations for the next round.
 ```

@@ -49,7 +49,7 @@ An event triggered by a player joining the game. A player may rejoin the game la
 }
 ```
 
-## Phase 0
+## Phase 0 (Introduction)
 
 ### Player is Ready
 
@@ -62,11 +62,11 @@ The game waits until all players declare themselves ready.
 }
 ```
 
-## Phase 1
+## Phase 1 (Presentation)
 
 Nothing in particular happens in phase 1, all players are shown their private and some public data.
 
-## Phase 2
+## Phase 2 (Declaration)
 
 Each player owning a property should declare its expected revenue for the round. The declaration is an array, one per condition. 0 is the status quo, 1 represents the development of the project. Originally there were intended more project to be selectable, it is still advisable to send a third item with the value set to 0.
 
@@ -82,7 +82,7 @@ Each player owning a property should declare its expected revenue for the round.
 }
 ```
 
-## Phase 3
+## Phase 3 (Speculation)
 
 At this phase the winning project is already known. Speculator may decide to take advantage of suspicious declarations by "overtaking" the business. This happens when the declared revenue is low enough to be quite sure it's possible to make more. In reality, in this game there is no takeover, but just a penalty applied to the property owner (if the declaration was indeed below the expected revenue) or vice versa, if the speculator was wrong. The penalty is half the gap between the declared and the expected revenue and can go either way: a speculator might receive a penalty if the declaration was above the expected revenue.
 
@@ -105,15 +105,15 @@ In the condition array there is a list of owners whose declaration is to be chal
 }
 ```
 
-## Phase 4
+## Phase 4 (Reconciliation)
 
 Players wait in this phase.
 
-## Phase 5
+## Phase 5 (Transition)
 
 Players wait in this phase.
 
-## Phase 6
+## Phase 6 (Market)
 
 During the market phase it is possible to post and cancel orders.
 
@@ -160,7 +160,7 @@ Each submitted order, if accepted, receives an id, which is made public through 
 }
 ```
 
-## Phase 7
+## Phase 7 (Declaration)
 
 In phase 7 a second declaration is submitted, similarly to phase 2.
 
@@ -178,7 +178,7 @@ In phase 7 a second declaration is submitted, similarly to phase 2.
 }
 ```
 
-## Phase 8
+## Phase 8 (Speculation)
 
 In phase 8 happens a new round of speculations.
 
@@ -197,8 +197,6 @@ In phase 8 happens a new round of speculations.
     ]
 }
 ```
-
-
-## Phase 9
+## Phase 9 (Results)
 
 In phase 9 players are shown their results and wait for the next round to start.

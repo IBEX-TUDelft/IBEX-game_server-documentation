@@ -1,0 +1,2648 @@
+{
+    "parameters": [
+        {
+            "key": "show_up_fee",
+            "type": "number",
+            "value": "5"
+        },
+        {
+            "key": "timer_phase_7",
+            "type": "number",
+            "value": "15"
+        },
+        {
+            "key": "timer_phase_6",
+            "type": "number",
+            "value": "60"
+        },
+        {
+            "key": "timer_phase_5",
+            "type": "number",
+            "value": "15"
+        },
+        {
+            "key": "timer_phase_4",
+            "type": "number",
+            "value": "120"
+        },
+        {
+            "key": "timer_phase_3",
+            "type": "number",
+            "value": "120"
+        },
+        {
+            "key": "timer_phase_2",
+            "type": "number",
+            "value": "15"
+        },
+        {
+            "key": "timer_phase_1",
+            "type": "number",
+            "value": "15"
+        },
+        {
+            "key": "seconds_for_deliberation",
+            "type": "number",
+            "value": "30"
+        },
+        {
+            "key": "owners_reward_scale_factor",
+            "type": "number",
+            "value": "20000"
+        },
+        {
+            "key": "owners_base_points",
+            "type": "number",
+            "value": "0"
+        },
+        {
+            "key": "owner_project_b_high",
+            "type": "number",
+            "value": "200000"
+        },
+        {
+            "key": "owner_project_b_fixed",
+            "type": "number",
+            "value": "150000"
+        },
+        {
+            "key": "owner_project_b_low",
+            "type": "number",
+            "value": "100000"
+        },
+        {
+            "key": "owner_project_a_high",
+            "type": "number",
+            "value": "350000"
+        },
+        {
+            "key": "owner_project_a_fixed",
+            "type": "number",
+            "value": "275000"
+        },
+        {
+            "key": "owner_project_a_low",
+            "type": "number",
+            "value": "150000"
+        },
+        {
+            "key": "owner_no_project_high",
+            "type": "number",
+            "value": "600000"
+        },
+        {
+            "key": "owner_no_project_fixed",
+            "type": "number",
+            "value": "425000"
+        },
+        {
+            "key": "owner_no_project_low",
+            "type": "number",
+            "value": "350000"
+        },
+        {
+            "key": "owner_shares",
+            "type": "number",
+            "value": "6"
+        },
+        {
+            "key": "owner_balance",
+            "type": "number",
+            "value": "60000"
+        },
+        {
+            "key": "owners_count",
+            "type": "number",
+            "value": "2"
+        },
+        {
+            "key": "developers_reward_scale_factor",
+            "type": "number",
+            "value": "50000"
+        },
+        {
+            "key": "developers_base_points",
+            "type": "number",
+            "value": "500000"
+        },
+        {
+            "key": "developer_project_b_high",
+            "type": "number",
+            "value": "2000000"
+        },
+        {
+            "key": "developer_project_b_fixed",
+            "type": "number",
+            "value": "1750000"
+        },
+        {
+            "key": "developer_project_b_low",
+            "type": "number",
+            "value": "1500000"
+        },
+        {
+            "key": "developer_project_a_high",
+            "type": "number",
+            "value": "2750000"
+        },
+        {
+            "key": "developer_project_a_fixed",
+            "type": "number",
+            "value": "1150000"
+        },
+        {
+            "key": "developer_project_a_low",
+            "type": "number",
+            "value": "500000"
+        },
+        {
+            "key": "developer_no_project_high",
+            "type": "number",
+            "value": "500000"
+        },
+        {
+            "key": "developer_no_project_fixed",
+            "type": "number",
+            "value": "350000"
+        },
+        {
+            "key": "developer_no_project_low",
+            "type": "number",
+            "value": "200000"
+        },
+        {
+            "key": "developer_shares",
+            "type": "number",
+            "value": "30"
+        },
+        {
+            "key": "developer_balance",
+            "type": "number",
+            "value": "300000"
+        },
+        {
+            "key": "developers_count",
+            "type": "number",
+            "value": "1"
+        },
+        {
+            "key": "speculators_reward_scale_factor",
+            "type": "number",
+            "value": "1"
+        },
+        {
+            "key": "speculators_base_points",
+            "type": "number",
+            "value": "0"
+        },
+        {
+            "key": "cash_for_snipers",
+            "type": "number",
+            "value": "250000"
+        },
+        {
+            "key": "max_lot_purchases",
+            "type": "number",
+            "value": "3"
+        },
+        {
+            "key": "speculator_shares",
+            "type": "number",
+            "value": "5"
+        },
+        {
+            "key": "speculator_balance",
+            "type": "number",
+            "value": "50000"
+        },
+        {
+            "key": "speculators_count",
+            "type": "number",
+            "value": "0"
+        },
+        {
+            "key": "agents_only",
+            "type": "boolean",
+            "value": "false"
+        },
+        {
+            "key": "generate_signals",
+            "type": "boolean",
+            "value": "false"
+        },
+        {
+            "key": "signal_high",
+            "type": "float",
+            "value": "1.05"
+        },
+        {
+            "key": "signal_low",
+            "type": "float",
+            "value": "0.95"
+        },
+        {
+            "key": "tax_rate_final",
+            "type": "number",
+            "value": "33"
+        },
+        {
+            "key": "tax_rate_initial",
+            "type": "number",
+            "value": "1"
+        },
+        {
+            "key": "minutes_for_sniping",
+            "type": "number",
+            "value": "2"
+        },
+        {
+            "key": "minutes_for_trading",
+            "type": "number",
+            "value": "10"
+        },
+        {
+            "key": "practice_round",
+            "type": "boolean",
+            "value": "true"
+        },
+        {
+            "key": "round_count",
+            "type": "number",
+            "value": "1"
+        },
+        {
+            "key": "session_number",
+            "type": "number",
+            "value": "6"
+        },
+        {
+            "key": "game_type",
+            "type": "string",
+            "value": "voting"
+        },
+        {
+            "key": "simulation_parent_id",
+            "type": "number",
+            "value": "15"
+        },
+        {
+            "key": "simulation_reward_round",
+            "type": "number",
+            "value": "1"
+        }
+    ],
+    "log": [
+        {
+            "content": {
+                "gameId": 15,
+                "type": "join",
+                "recovery": "cxeed81f6ko35cyya9l7043blukewu7awtafql12jpwwhri97v4apdxtgt7icqc0"
+            },
+            "phase": 0,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "join",
+                "recovery": "6rrdf7e5esvuo0uq2hn2hwow8stub8optddh9r07jf79s1f1nelundyfjz0nbk70"
+            },
+            "phase": 0,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "join",
+                "recovery": "imqan4p3ervytx0ucey59j2mjeu5uy489s334er4mkx8cdmqsu43q9olxpek60g0"
+            },
+            "phase": 0,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "player-is-ready"
+            },
+            "number": 3,
+            "tag": "Owner 2",
+            "phase": 0,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "player-is-ready"
+            },
+            "number": 2,
+            "tag": "Developer",
+            "phase": 0,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "player-is-ready"
+            },
+            "number": 1,
+            "tag": "Owner 1",
+            "phase": 0,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "phase": 1,
+                "round": 0
+            },
+            "type": "phase-timeout",
+            "phase": 1,
+            "round": 0
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "chat-with-players",
+                "to": [
+                    2,
+                    3
+                ],
+                "text": "I don't know"
+            },
+            "number": 1,
+            "tag": "Owner 1",
+            "phase": 2,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "phase": 2,
+                "round": 0
+            },
+            "type": "phase-timeout",
+            "phase": 2,
+            "round": 0
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "compensation-request",
+                "compensationRequests": [
+                    null,
+                    155000
+                ]
+            },
+            "number": 1,
+            "tag": "Owner 1",
+            "phase": 3,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "compensation-request",
+                "compensationRequests": [
+                    null,
+                    205000
+                ]
+            },
+            "number": 3,
+            "tag": "Owner 2",
+            "phase": 3,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "compensation-offer",
+                "compensationOffers": [
+                    null,
+                    123000
+                ]
+            },
+            "number": 2,
+            "tag": "Developer",
+            "phase": 4,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "chat-with-players",
+                "to": [
+                    1,
+                    3
+                ],
+                "text": "Enouhg?"
+            },
+            "number": 2,
+            "tag": "Developer",
+            "phase": 5,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "chat-with-players",
+                "to": [
+                    1,
+                    2
+                ],
+                "text": "no"
+            },
+            "number": 3,
+            "tag": "Owner 2",
+            "phase": 5,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "phase": 5,
+                "round": 0
+            },
+            "type": "phase-timeout",
+            "phase": 5,
+            "round": 0
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "compensation-decision",
+                "compensationDecisions": [
+                    0
+                ]
+            },
+            "number": 3,
+            "tag": "Owner 2",
+            "phase": 6,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "compensation-decision",
+                "compensationDecisions": [
+                    0
+                ]
+            },
+            "number": 1,
+            "tag": "Owner 1",
+            "phase": 6,
+            "round": 0,
+            "type": "message"
+        },
+        {
+            "content": {
+                "phase": 7,
+                "round": 0
+            },
+            "type": "phase-timeout",
+            "phase": 7,
+            "round": 0
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "player-is-ready"
+            },
+            "number": 1,
+            "tag": "Owner 1",
+            "phase": 0,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "player-is-ready"
+            },
+            "number": 2,
+            "tag": "Developer",
+            "phase": 0,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "player-is-ready"
+            },
+            "number": 3,
+            "tag": "Owner 2",
+            "phase": 0,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "phase": 1,
+                "round": 1
+            },
+            "type": "phase-timeout",
+            "phase": 1,
+            "round": 1
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "chat-with-players",
+                "to": [
+                    1
+                ],
+                "text": "Hello"
+            },
+            "number": 3,
+            "tag": "Owner 2",
+            "phase": 2,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "chat-with-players",
+                "to": [
+                    1
+                ],
+                "text": "ggg"
+            },
+            "number": 2,
+            "tag": "Developer",
+            "phase": 2,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "phase": 2,
+                "round": 1
+            },
+            "type": "phase-timeout",
+            "phase": 2,
+            "round": 1
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "compensation-request",
+                "compensationRequests": [
+                    null,
+                    225000
+                ]
+            },
+            "number": 1,
+            "tag": "Owner 1",
+            "phase": 3,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "compensation-request",
+                "compensationRequests": [
+                    null,
+                    245000
+                ]
+            },
+            "number": 3,
+            "tag": "Owner 2",
+            "phase": 3,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "compensation-offer",
+                "compensationOffers": [
+                    null,
+                    230000
+                ]
+            },
+            "number": 2,
+            "tag": "Developer",
+            "phase": 4,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "chat-with-players",
+                "to": [
+                    1,
+                    3
+                ],
+                "text": "ok"
+            },
+            "number": 2,
+            "tag": "Developer",
+            "phase": 5,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "chat-with-players",
+                "to": [
+                    2,
+                    1
+                ],
+                "text": "maybe"
+            },
+            "number": 3,
+            "tag": "Owner 2",
+            "phase": 5,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "phase": 5,
+                "round": 1
+            },
+            "type": "phase-timeout",
+            "phase": 5,
+            "round": 1
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "compensation-decision",
+                "compensationDecisions": [
+                    0
+                ]
+            },
+            "number": 3,
+            "tag": "Owner 2",
+            "phase": 6,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 15,
+                "type": "compensation-decision",
+                "compensationDecisions": [
+                    1
+                ]
+            },
+            "number": 1,
+            "tag": "Owner 1",
+            "phase": 6,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "phase": 7,
+                "round": 1
+            },
+            "type": "phase-timeout",
+            "phase": 7,
+            "round": 1
+        }
+    ],
+    "server-log": [
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 0,
+                    "phase": 0
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-instructions",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 0,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-instructions",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 0,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-instructions",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 0,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "ready-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 0,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "ready-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 0,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "ready-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 0,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733496994884
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "assign-role",
+                "data": {
+                    "role": 3,
+                    "property": {
+                        "id": 1,
+                        "owner": 1,
+                        "name": "Fascinating Goldfish Lot",
+                        "v": [
+                            562000,
+                            338000,
+                            150000
+                        ]
+                    },
+                    "boundaries": {
+                        "developer": {
+                            "noProject": {
+                                "low": 200000,
+                                "high": 500000
+                            },
+                            "projectA": {
+                                "low": 500000,
+                                "high": 2750000
+                            }
+                        },
+                        "owner": {
+                            "noProject": {
+                                "low": 350000,
+                                "high": 600000
+                            },
+                            "projectA": {
+                                "low": 150000,
+                                "high": 350000
+                            }
+                        }
+                    },
+                    "id": 0,
+                    "number": 1,
+                    "tag": "Owner 1",
+                    "conditions": [
+                        {
+                            "name": "No Project",
+                            "id": 0,
+                            "parameter": "no_project",
+                            "key": "noProject"
+                        },
+                        {
+                            "name": "Project",
+                            "id": 1,
+                            "parameter": "project_a",
+                            "key": "projectA"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 0,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "assign-role",
+                "data": {
+                    "role": 2,
+                    "property": {
+                        "id": 2,
+                        "owner": 2,
+                        "name": "Determined Grouse Lot",
+                        "v": [
+                            458000,
+                            2742000,
+                            1750000
+                        ]
+                    },
+                    "boundaries": {
+                        "developer": {
+                            "noProject": {
+                                "low": 200000,
+                                "high": 500000
+                            },
+                            "projectA": {
+                                "low": 500000,
+                                "high": 2750000
+                            }
+                        },
+                        "owner": {
+                            "noProject": {
+                                "low": 350000,
+                                "high": 600000
+                            },
+                            "projectA": {
+                                "low": 150000,
+                                "high": 350000
+                            }
+                        }
+                    },
+                    "id": 1,
+                    "number": 2,
+                    "tag": "Developer",
+                    "conditions": [
+                        {
+                            "name": "No Project",
+                            "id": 0,
+                            "parameter": "no_project",
+                            "key": "noProject"
+                        },
+                        {
+                            "name": "Project",
+                            "id": 1,
+                            "parameter": "project_a",
+                            "key": "projectA"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 0,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "assign-role",
+                "data": {
+                    "role": 3,
+                    "property": {
+                        "id": 3,
+                        "owner": 3,
+                        "name": "Bloody Zebra Lot",
+                        "v": [
+                            553000,
+                            311000,
+                            150000
+                        ]
+                    },
+                    "boundaries": {
+                        "developer": {
+                            "noProject": {
+                                "low": 200000,
+                                "high": 500000
+                            },
+                            "projectA": {
+                                "low": 500000,
+                                "high": 2750000
+                            }
+                        },
+                        "owner": {
+                            "noProject": {
+                                "low": 350000,
+                                "high": 600000
+                            },
+                            "projectA": {
+                                "low": 150000,
+                                "high": 350000
+                            }
+                        }
+                    },
+                    "id": 2,
+                    "number": 3,
+                    "tag": "Owner 2",
+                    "conditions": [
+                        {
+                            "name": "No Project",
+                            "id": 0,
+                            "parameter": "no_project",
+                            "key": "noProject"
+                        },
+                        {
+                            "name": "Project",
+                            "id": 1,
+                            "parameter": "project_a",
+                            "key": "projectA"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 0,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "players-known",
+                "data": {
+                    "players": [
+                        {
+                            "number": 1,
+                            "role": 3,
+                            "tag": "Owner 1"
+                        },
+                        {
+                            "number": 2,
+                            "role": 2,
+                            "tag": "Developer"
+                        },
+                        {
+                            "number": 3,
+                            "role": 3,
+                            "tag": "Owner 2"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 0,
+                    "phase": 1
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 1
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 1
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733497009935
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 1
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 0,
+                    "phase": 2
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "message-received",
+                "data": {
+                    "sender": 1,
+                    "to": [
+                        2,
+                        3
+                    ],
+                    "number": 0,
+                    "text": "I don't know",
+                    "time": 1733497007316
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 0,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "message-received",
+                "data": {
+                    "sender": 1,
+                    "to": [
+                        2,
+                        3
+                    ],
+                    "number": 1,
+                    "text": "I don't know",
+                    "time": 1733497007316
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 0,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733497129999
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 0,
+                    "phase": 3
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-request-received",
+                "data": {
+                    "compensationRequests": [
+                        null,
+                        155000
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 0,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-request-received",
+                "data": {
+                    "compensationRequests": [
+                        null,
+                        205000
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 0,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733497148446
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-requests-received",
+                "data": {
+                    "compensationRequests": [
+                        {
+                            "number": 1,
+                            "compensationRequests": [
+                                null,
+                                155000
+                            ]
+                        },
+                        {
+                            "number": 2
+                        },
+                        {
+                            "number": 3,
+                            "compensationRequests": [
+                                null,
+                                205000
+                            ]
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 0,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 0,
+                    "phase": 4
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-offer-received",
+                "data": {
+                    "compensationOffers": [
+                        null,
+                        123000
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 0,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-offer-made",
+                "data": {
+                    "compensationOffers": [
+                        null,
+                        123000
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 0,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-offer-made",
+                "data": {
+                    "compensationOffers": [
+                        null,
+                        123000
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 0,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733497060252
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 0,
+                    "phase": 5
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "message-received",
+                "data": {
+                    "sender": 2,
+                    "to": [
+                        1,
+                        3
+                    ],
+                    "number": 0,
+                    "text": "Enouhg?",
+                    "time": 1733497055995
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 0,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "message-received",
+                "data": {
+                    "sender": 2,
+                    "to": [
+                        1,
+                        3
+                    ],
+                    "number": 1,
+                    "text": "Enouhg?",
+                    "time": 1733497055995
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 0,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "message-received",
+                "data": {
+                    "sender": 3,
+                    "to": [
+                        1,
+                        2
+                    ],
+                    "number": 2,
+                    "text": "no",
+                    "time": 1733497059007
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 0,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "message-received",
+                "data": {
+                    "sender": 3,
+                    "to": [
+                        1,
+                        2
+                    ],
+                    "number": 3,
+                    "text": "no",
+                    "time": 1733497059007
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 0,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733497120396
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 0,
+                    "phase": 6
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-decision-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 0,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-decision-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 0,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733497089108
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "final-profit",
+                "data": {
+                    "condition": 0,
+                    "tally": 2,
+                    "value": 441000,
+                    "compensation": null
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 0,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "final-profit",
+                "data": {
+                    "condition": 0,
+                    "tally": 2,
+                    "value": 430000,
+                    "compensation": 0
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 0,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "final-profit",
+                "data": {
+                    "condition": 0,
+                    "tally": 2,
+                    "value": 542000,
+                    "compensation": null
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 0,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 0,
+                    "phase": 7
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "round-end",
+                "data": {
+                    "round": 0
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 0,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "round-summary",
+                "data": {
+                    "round": 0,
+                    "condition": 0,
+                    "value": 441000,
+                    "tally": 2,
+                    "compensation": null,
+                    "profit": 441000
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 0,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "round-summary",
+                "data": {
+                    "round": 0,
+                    "condition": 0,
+                    "value": 430000,
+                    "tally": 2,
+                    "compensation": 0,
+                    "profit": 430000
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 0,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "round-summary",
+                "data": {
+                    "round": 0,
+                    "condition": 0,
+                    "value": 542000,
+                    "tally": 2,
+                    "compensation": null,
+                    "profit": 542000
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 0,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 0
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "ready-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "ready-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "ready-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733497108299
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "assign-role",
+                "data": {
+                    "role": 3,
+                    "property": {
+                        "id": 1,
+                        "owner": 1,
+                        "name": "Fascinating Goldfish Lot",
+                        "v": [
+                            562000,
+                            338000,
+                            150000
+                        ]
+                    },
+                    "boundaries": {
+                        "developer": {
+                            "noProject": {
+                                "low": 200000,
+                                "high": 500000
+                            },
+                            "projectA": {
+                                "low": 500000,
+                                "high": 2750000
+                            }
+                        },
+                        "owner": {
+                            "noProject": {
+                                "low": 350000,
+                                "high": 600000
+                            },
+                            "projectA": {
+                                "low": 150000,
+                                "high": 350000
+                            }
+                        }
+                    },
+                    "id": 0,
+                    "number": 1,
+                    "tag": "Owner 1",
+                    "conditions": [
+                        {
+                            "name": "No Project",
+                            "id": 0,
+                            "parameter": "no_project",
+                            "key": "noProject"
+                        },
+                        {
+                            "name": "Project",
+                            "id": 1,
+                            "parameter": "project_a",
+                            "key": "projectA"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "assign-role",
+                "data": {
+                    "role": 2,
+                    "property": {
+                        "id": 2,
+                        "owner": 2,
+                        "name": "Determined Grouse Lot",
+                        "v": [
+                            458000,
+                            2742000,
+                            1750000
+                        ]
+                    },
+                    "boundaries": {
+                        "developer": {
+                            "noProject": {
+                                "low": 200000,
+                                "high": 500000
+                            },
+                            "projectA": {
+                                "low": 500000,
+                                "high": 2750000
+                            }
+                        },
+                        "owner": {
+                            "noProject": {
+                                "low": 350000,
+                                "high": 600000
+                            },
+                            "projectA": {
+                                "low": 150000,
+                                "high": 350000
+                            }
+                        }
+                    },
+                    "id": 1,
+                    "number": 2,
+                    "tag": "Developer",
+                    "conditions": [
+                        {
+                            "name": "No Project",
+                            "id": 0,
+                            "parameter": "no_project",
+                            "key": "noProject"
+                        },
+                        {
+                            "name": "Project",
+                            "id": 1,
+                            "parameter": "project_a",
+                            "key": "projectA"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "assign-role",
+                "data": {
+                    "role": 3,
+                    "property": {
+                        "id": 3,
+                        "owner": 3,
+                        "name": "Bloody Zebra Lot",
+                        "v": [
+                            553000,
+                            311000,
+                            150000
+                        ]
+                    },
+                    "boundaries": {
+                        "developer": {
+                            "noProject": {
+                                "low": 200000,
+                                "high": 500000
+                            },
+                            "projectA": {
+                                "low": 500000,
+                                "high": 2750000
+                            }
+                        },
+                        "owner": {
+                            "noProject": {
+                                "low": 350000,
+                                "high": 600000
+                            },
+                            "projectA": {
+                                "low": 150000,
+                                "high": 350000
+                            }
+                        }
+                    },
+                    "id": 2,
+                    "number": 3,
+                    "tag": "Owner 2",
+                    "conditions": [
+                        {
+                            "name": "No Project",
+                            "id": 0,
+                            "parameter": "no_project",
+                            "key": "noProject"
+                        },
+                        {
+                            "name": "Project",
+                            "id": 1,
+                            "parameter": "project_a",
+                            "key": "projectA"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "players-known",
+                "data": {
+                    "players": [
+                        {
+                            "number": 1,
+                            "role": 3,
+                            "tag": "Owner 1"
+                        },
+                        {
+                            "number": 2,
+                            "role": 2,
+                            "tag": "Developer"
+                        },
+                        {
+                            "number": 3,
+                            "role": 3,
+                            "tag": "Owner 2"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 1
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 1
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 1
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733497123357
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 1
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 2
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "message-received",
+                "data": {
+                    "sender": 3,
+                    "to": [
+                        1
+                    ],
+                    "number": 0,
+                    "text": "Hello",
+                    "time": 1733497115268
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "message-received",
+                "data": {
+                    "sender": 2,
+                    "to": [
+                        1
+                    ],
+                    "number": 1,
+                    "text": "ggg",
+                    "time": 1733497119731
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733497243434
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 3
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-request-received",
+                "data": {
+                    "compensationRequests": [
+                        null,
+                        225000
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-request-received",
+                "data": {
+                    "compensationRequests": [
+                        null,
+                        245000
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733497258625
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-requests-received",
+                "data": {
+                    "compensationRequests": [
+                        {
+                            "number": 1,
+                            "compensationRequests": [
+                                null,
+                                225000
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "compensationRequests": null
+                        },
+                        {
+                            "number": 3,
+                            "compensationRequests": [
+                                null,
+                                245000
+                            ]
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 4
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-offer-received",
+                "data": {
+                    "compensationOffers": [
+                        null,
+                        230000
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-offer-made",
+                "data": {
+                    "compensationOffers": [
+                        null,
+                        230000
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-offer-made",
+                "data": {
+                    "compensationOffers": [
+                        null,
+                        230000
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733497165453
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 5
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "message-received",
+                "data": {
+                    "sender": 2,
+                    "to": [
+                        1,
+                        3
+                    ],
+                    "number": 0,
+                    "text": "ok",
+                    "time": 1733497157964
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "message-received",
+                "data": {
+                    "sender": 2,
+                    "to": [
+                        1,
+                        3
+                    ],
+                    "number": 1,
+                    "text": "ok",
+                    "time": 1733497157964
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "message-received",
+                "data": {
+                    "sender": 3,
+                    "to": [
+                        2,
+                        1
+                    ],
+                    "number": 2,
+                    "text": "maybe",
+                    "time": 1733497164203
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "message-received",
+                "data": {
+                    "sender": 3,
+                    "to": [
+                        2,
+                        1
+                    ],
+                    "number": 3,
+                    "text": "maybe",
+                    "time": 1733497164203
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733497225593
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 6
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-decision-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "compensation-decision-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733497192725
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "final-profit",
+                "data": {
+                    "condition": 1,
+                    "tally": 1,
+                    "value": 338000,
+                    "compensation": 230000
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "final-profit",
+                "data": {
+                    "condition": 1,
+                    "tally": 1,
+                    "value": 2742000,
+                    "compensation": -460000
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "final-profit",
+                "data": {
+                    "condition": 1,
+                    "tally": 1,
+                    "value": 311000,
+                    "compensation": 230000
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 7
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "round-end",
+                "data": {
+                    "round": 1
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "round-summary",
+                "data": {
+                    "round": 1,
+                    "condition": 1,
+                    "value": 338000,
+                    "tally": 1,
+                    "compensation": 230000,
+                    "profit": 568000
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "round-summary",
+                "data": {
+                    "round": 1,
+                    "condition": 1,
+                    "value": 2742000,
+                    "tally": 1,
+                    "compensation": -460000,
+                    "profit": 2282000
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "round-summary",
+                "data": {
+                    "round": 1,
+                    "condition": 1,
+                    "value": 311000,
+                    "tally": 1,
+                    "compensation": 230000,
+                    "profit": 541000
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "reward",
+                "data": {
+                    "number": 1,
+                    "round": 1,
+                    "reward": 33.4,
+                    "basePoints": 0,
+                    "showupFee": 5,
+                    "gameFee": 28.4,
+                    "profit": 568000,
+                    "points": 568000,
+                    "factor": 20000,
+                    "exchange": 0.00005,
+                    "paymentToken": "XQ"
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "reward",
+                "data": {
+                    "number": 2,
+                    "round": 1,
+                    "reward": 60.64,
+                    "basePoints": 500000,
+                    "showupFee": 5,
+                    "gameFee": 55.64,
+                    "profit": 2282000,
+                    "points": 2782000,
+                    "factor": 50000,
+                    "exchange": 0.00002,
+                    "paymentToken": "BQ"
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "reward",
+                "data": {
+                    "number": 3,
+                    "round": 1,
+                    "reward": 32.05,
+                    "basePoints": 0,
+                    "showupFee": 5,
+                    "gameFee": 27.05,
+                    "profit": 541000,
+                    "points": 541000,
+                    "factor": 20000,
+                    "exchange": 0.00005,
+                    "paymentToken": "AB"
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "game-over",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 7
+            }
+        }
+    ]
+}

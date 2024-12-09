@@ -1,0 +1,3399 @@
+{
+    "parameters": [
+        {
+            "key": "show_up_fee",
+            "type": "number",
+            "value": "5"
+        },
+        {
+            "key": "timer_phase_9",
+            "type": "number",
+            "value": "15"
+        },
+        {
+            "key": "timer_phase_8",
+            "type": "number",
+            "value": "90"
+        },
+        {
+            "key": "timer_phase_7",
+            "type": "number",
+            "value": "60"
+        },
+        {
+            "key": "timer_phase_6",
+            "type": "number",
+            "value": "45"
+        },
+        {
+            "key": "timer_phase_5",
+            "type": "number",
+            "value": "3"
+        },
+        {
+            "key": "timer_phase_4",
+            "type": "number",
+            "value": "3"
+        },
+        {
+            "key": "timer_phase_3",
+            "type": "number",
+            "value": "120"
+        },
+        {
+            "key": "timer_phase_2",
+            "type": "number",
+            "value": "90"
+        },
+        {
+            "key": "timer_phase_1",
+            "type": "number",
+            "value": "15"
+        },
+        {
+            "key": "seconds_for_deliberation",
+            "type": "number",
+            "value": "30"
+        },
+        {
+            "key": "owners_reward_scale_factor",
+            "type": "number",
+            "value": "20000"
+        },
+        {
+            "key": "owners_base_points",
+            "type": "number",
+            "value": "200000"
+        },
+        {
+            "key": "owner_project_b_high",
+            "type": "number",
+            "value": "200000"
+        },
+        {
+            "key": "owner_project_b_fixed",
+            "type": "number",
+            "value": "150000"
+        },
+        {
+            "key": "owner_project_b_low",
+            "type": "number",
+            "value": "100000"
+        },
+        {
+            "key": "owner_project_a_high",
+            "type": "number",
+            "value": "350000"
+        },
+        {
+            "key": "owner_project_a_fixed",
+            "type": "number",
+            "value": "275000"
+        },
+        {
+            "key": "owner_project_a_low",
+            "type": "number",
+            "value": "150000"
+        },
+        {
+            "key": "owner_no_project_high",
+            "type": "number",
+            "value": "600000"
+        },
+        {
+            "key": "owner_no_project_fixed",
+            "type": "number",
+            "value": "425000"
+        },
+        {
+            "key": "owner_no_project_low",
+            "type": "number",
+            "value": "350000"
+        },
+        {
+            "key": "owner_shares",
+            "type": "number",
+            "value": "6"
+        },
+        {
+            "key": "owner_balance",
+            "type": "number",
+            "value": "60000"
+        },
+        {
+            "key": "owners_count",
+            "type": "number",
+            "value": "2"
+        },
+        {
+            "key": "developers_reward_scale_factor",
+            "type": "number",
+            "value": "50000"
+        },
+        {
+            "key": "developers_base_points",
+            "type": "number",
+            "value": "0"
+        },
+        {
+            "key": "developer_project_b_high",
+            "type": "number",
+            "value": "2000000"
+        },
+        {
+            "key": "developer_project_b_fixed",
+            "type": "number",
+            "value": "1750000"
+        },
+        {
+            "key": "developer_project_b_low",
+            "type": "number",
+            "value": "1500000"
+        },
+        {
+            "key": "developer_project_a_high",
+            "type": "number",
+            "value": "2750000"
+        },
+        {
+            "key": "developer_project_a_fixed",
+            "type": "number",
+            "value": "1150000"
+        },
+        {
+            "key": "developer_project_a_low",
+            "type": "number",
+            "value": "500000"
+        },
+        {
+            "key": "developer_no_project_high",
+            "type": "number",
+            "value": "500000"
+        },
+        {
+            "key": "developer_no_project_fixed",
+            "type": "number",
+            "value": "350000"
+        },
+        {
+            "key": "developer_no_project_low",
+            "type": "number",
+            "value": "200000"
+        },
+        {
+            "key": "developer_shares",
+            "type": "number",
+            "value": "30"
+        },
+        {
+            "key": "developer_balance",
+            "type": "number",
+            "value": "300000"
+        },
+        {
+            "key": "developers_count",
+            "type": "number",
+            "value": "1"
+        },
+        {
+            "key": "speculators_reward_scale_factor",
+            "type": "number",
+            "value": "20000"
+        },
+        {
+            "key": "speculators_base_points",
+            "type": "number",
+            "value": "400000"
+        },
+        {
+            "key": "cash_for_snipers",
+            "type": "number",
+            "value": "250000"
+        },
+        {
+            "key": "max_lot_purchases",
+            "type": "number",
+            "value": "3"
+        },
+        {
+            "key": "speculator_shares",
+            "type": "number",
+            "value": "5"
+        },
+        {
+            "key": "speculator_balance",
+            "type": "number",
+            "value": "50000"
+        },
+        {
+            "key": "speculators_count",
+            "type": "number",
+            "value": "2"
+        },
+        {
+            "key": "agents_only",
+            "type": "boolean",
+            "value": "false"
+        },
+        {
+            "key": "generate_signals",
+            "type": "boolean",
+            "value": "false"
+        },
+        {
+            "key": "signal_high",
+            "type": "float",
+            "value": "1.05"
+        },
+        {
+            "key": "signal_low",
+            "type": "float",
+            "value": "0.95"
+        },
+        {
+            "key": "tax_rate_final",
+            "type": "number",
+            "value": "33"
+        },
+        {
+            "key": "tax_rate_initial",
+            "type": "number",
+            "value": "1"
+        },
+        {
+            "key": "minutes_for_sniping",
+            "type": "number",
+            "value": "2"
+        },
+        {
+            "key": "minutes_for_trading",
+            "type": "number",
+            "value": "10"
+        },
+        {
+            "key": "practice_round",
+            "type": "boolean",
+            "value": "false"
+        },
+        {
+            "key": "round_count",
+            "type": "number",
+            "value": "1"
+        },
+        {
+            "key": "session_number",
+            "type": "number",
+            "value": "4"
+        },
+        {
+            "key": "game_type",
+            "type": "string",
+            "value": "harberger"
+        },
+        {
+            "key": "simulation_parent_id",
+            "type": "number",
+            "value": "14"
+        },
+        {
+            "key": "simulation_reward_round",
+            "type": "number",
+            "value": "1"
+        }
+    ],
+    "log": [
+        {
+            "content": {
+                "gameId": 14,
+                "type": "join",
+                "recovery": "6j6rg2j7nmah8cgaes18x2yzjvhp80opkhycymhjc82fx6qdxh6vlgdoihauyl60"
+            },
+            "phase": 0,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "player-is-ready"
+            },
+            "number": 1,
+            "tag": "Owner 1",
+            "phase": 0,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "join",
+                "recovery": "l1hno7eoa01pf1dbtwphldaqz2mcgk3j0tu6vp9has1xumwn7uk4io4vxqy59xu0"
+            },
+            "phase": 0,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "player-is-ready"
+            },
+            "number": 2,
+            "tag": "Developer",
+            "phase": 0,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "join",
+                "recovery": "gumdoenwweqbhgsrtl72cae87170nv5jymzqxspg2kxarwc3c64z6xolrzz6q7j0"
+            },
+            "phase": 0,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "player-is-ready"
+            },
+            "number": 3,
+            "tag": "Owner 2",
+            "phase": 0,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "join",
+                "recovery": "fkk1vjvgofel6r8htridgn7pzzs0iahvchz7ogfv7n04qgfyv2epry85tp5otzw0"
+            },
+            "phase": 0,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "player-is-ready"
+            },
+            "number": 4,
+            "tag": "Speculator 1",
+            "phase": 0,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "join",
+                "recovery": "odpuslvwy9j3rt06izcpxr7ajl5ouv9gbthwtrlt41t9lfhiq4uzglhtoluihwo0"
+            },
+            "phase": 0,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "player-is-ready"
+            },
+            "number": 5,
+            "tag": "Speculator 2",
+            "phase": 0,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "phase": 1,
+                "round": 1
+            },
+            "type": "phase-timeout",
+            "phase": 1,
+            "round": 1
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "declare",
+                "declaration": [
+                    387000,
+                    316000,
+                    0
+                ]
+            },
+            "number": 1,
+            "tag": "Owner 1",
+            "phase": 2,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "declare",
+                "declaration": [
+                    197000,
+                    1096000,
+                    0
+                ]
+            },
+            "number": 2,
+            "tag": "Developer",
+            "phase": 2,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "declare",
+                "declaration": [
+                    568000,
+                    299000,
+                    0
+                ]
+            },
+            "number": 3,
+            "tag": "Owner 2",
+            "phase": 2,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "done-speculating",
+                "snipe": [
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "number": 4,
+            "tag": "Speculator 1",
+            "phase": 3,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "done-speculating",
+                "snipe": [
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "number": 5,
+            "tag": "Speculator 2",
+            "phase": 3,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "phase": 4,
+                "round": 1
+            },
+            "type": "phase-timeout",
+            "phase": 4,
+            "round": 1
+        },
+        {
+            "content": {
+                "phase": 5,
+                "round": 1
+            },
+            "type": "phase-timeout",
+            "phase": 5,
+            "round": 1
+        },
+        {
+            "content": {
+                "order": {
+                    "price": 8100,
+                    "quantity": 1,
+                    "condition": 1,
+                    "type": "ask",
+                    "now": false
+                },
+                "gameId": 14,
+                "type": "post-order"
+            },
+            "number": 1,
+            "tag": "Owner 1",
+            "phase": 6,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "order": {
+                    "price": 8125,
+                    "quantity": 1,
+                    "condition": 1,
+                    "type": "ask",
+                    "now": false
+                },
+                "gameId": 14,
+                "type": "post-order"
+            },
+            "number": 3,
+            "tag": "Owner 2",
+            "phase": 6,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "order": {
+                    "price": 0,
+                    "quantity": 1,
+                    "condition": 1,
+                    "type": "bid",
+                    "now": true
+                },
+                "gameId": 14,
+                "type": "post-order"
+            },
+            "number": 4,
+            "tag": "Speculator 1",
+            "phase": 6,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "order": {
+                    "price": 0,
+                    "quantity": 1,
+                    "condition": 1,
+                    "type": "bid",
+                    "now": true
+                },
+                "gameId": 14,
+                "type": "post-order"
+            },
+            "number": 2,
+            "tag": "Developer",
+            "phase": 6,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "phase": 6,
+                "round": 1
+            },
+            "type": "phase-timeout",
+            "phase": 6,
+            "round": 1
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "declare",
+                "declaration": [
+                    0,
+                    1099000,
+                    0
+                ]
+            },
+            "number": 2,
+            "tag": "Developer",
+            "phase": 7,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "declare",
+                "declaration": [
+                    0,
+                    324000,
+                    0
+                ]
+            },
+            "number": 1,
+            "tag": "Owner 1",
+            "phase": 7,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "declare",
+                "declaration": [
+                    0,
+                    300000,
+                    0
+                ]
+            },
+            "number": 3,
+            "tag": "Owner 2",
+            "phase": 7,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "done-speculating",
+                "snipe": [
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "number": 4,
+            "tag": "Speculator 1",
+            "phase": 8,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "gameId": 14,
+                "type": "done-speculating",
+                "snipe": [
+                    [],
+                    [
+                        3,
+                        1
+                    ]
+                ]
+            },
+            "number": 5,
+            "tag": "Speculator 2",
+            "phase": 8,
+            "round": 1,
+            "type": "message"
+        },
+        {
+            "content": {
+                "phase": 9,
+                "round": 1
+            },
+            "type": "phase-timeout",
+            "phase": 9,
+            "round": 1
+        }
+    ],
+    "server-log": [
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 0
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-instructions",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "ready-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-instructions",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "ready-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-instructions",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "ready-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-instructions",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "ready-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-instructions",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "ready-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733495040269
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "assign-role",
+                "data": {
+                    "role": 3,
+                    "wallet": [
+                        {
+                            "balance": 60000,
+                            "shares": 6,
+                            "cashForSniping": 250000
+                        },
+                        {
+                            "balance": 68100,
+                            "shares": 5,
+                            "cashForSniping": 250000
+                        },
+                        {
+                            "balance": 60000,
+                            "shares": 6,
+                            "cashForSniping": 250000
+                        }
+                    ],
+                    "property": {
+                        "id": 1,
+                        "owner": 1,
+                        "name": "Breezy Unicorn Lot",
+                        "v": [
+                            399000,
+                            326000,
+                            150000
+                        ],
+                        "d": [
+                            0,
+                            324000,
+                            0
+                        ],
+                        "speculators": [
+                            [],
+                            [
+                                5
+                            ],
+                            []
+                        ]
+                    },
+                    "boundaries": {
+                        "developer": {
+                            "noProject": {
+                                "low": 200000,
+                                "high": 500000
+                            },
+                            "projectA": {
+                                "low": 500000,
+                                "high": 2750000
+                            }
+                        },
+                        "owner": {
+                            "noProject": {
+                                "low": 350000,
+                                "high": 600000
+                            },
+                            "projectA": {
+                                "low": 150000,
+                                "high": 350000
+                            }
+                        }
+                    },
+                    "taxRate": 1,
+                    "initialTaxRate": 1,
+                    "finalTaxRate": 33,
+                    "conditions": [
+                        {
+                            "name": "No Project",
+                            "id": 0,
+                            "parameter": "no_project",
+                            "key": "noProject"
+                        },
+                        {
+                            "name": "Project",
+                            "id": 1,
+                            "parameter": "project_a",
+                            "key": "projectA"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "assign-role",
+                "data": {
+                    "role": 2,
+                    "wallet": [
+                        {
+                            "balance": 300000,
+                            "shares": 30,
+                            "cashForSniping": 250000
+                        },
+                        {
+                            "balance": 291875,
+                            "shares": 31,
+                            "cashForSniping": 250000
+                        },
+                        {
+                            "balance": 300000,
+                            "shares": 30,
+                            "cashForSniping": 250000
+                        }
+                    ],
+                    "property": {
+                        "id": 2,
+                        "owner": 2,
+                        "name": "Chief Bird Lot",
+                        "v": [
+                            205000,
+                            1102000,
+                            1750000
+                        ],
+                        "d": [
+                            0,
+                            1099000,
+                            0
+                        ],
+                        "speculators": [
+                            [],
+                            [
+                                4
+                            ],
+                            []
+                        ]
+                    },
+                    "boundaries": {
+                        "developer": {
+                            "noProject": {
+                                "low": 200000,
+                                "high": 500000
+                            },
+                            "projectA": {
+                                "low": 500000,
+                                "high": 2750000
+                            }
+                        },
+                        "owner": {
+                            "noProject": {
+                                "low": 350000,
+                                "high": 600000
+                            },
+                            "projectA": {
+                                "low": 150000,
+                                "high": 350000
+                            }
+                        }
+                    },
+                    "taxRate": 1,
+                    "initialTaxRate": 1,
+                    "finalTaxRate": 33,
+                    "conditions": [
+                        {
+                            "name": "No Project",
+                            "id": 0,
+                            "parameter": "no_project",
+                            "key": "noProject"
+                        },
+                        {
+                            "name": "Project",
+                            "id": 1,
+                            "parameter": "project_a",
+                            "key": "projectA"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "assign-role",
+                "data": {
+                    "role": 3,
+                    "wallet": [
+                        {
+                            "balance": 60000,
+                            "shares": 6,
+                            "cashForSniping": 250000
+                        },
+                        {
+                            "balance": 68125,
+                            "shares": 5,
+                            "cashForSniping": 250000
+                        },
+                        {
+                            "balance": 60000,
+                            "shares": 6,
+                            "cashForSniping": 250000
+                        }
+                    ],
+                    "property": {
+                        "id": 3,
+                        "owner": 3,
+                        "name": "Contemporary Crocodile Lot",
+                        "v": [
+                            572000,
+                            301000,
+                            150000
+                        ],
+                        "d": [
+                            0,
+                            300000,
+                            0
+                        ],
+                        "speculators": [
+                            [],
+                            [
+                                4,
+                                5
+                            ],
+                            []
+                        ]
+                    },
+                    "boundaries": {
+                        "developer": {
+                            "noProject": {
+                                "low": 200000,
+                                "high": 500000
+                            },
+                            "projectA": {
+                                "low": 500000,
+                                "high": 2750000
+                            }
+                        },
+                        "owner": {
+                            "noProject": {
+                                "low": 350000,
+                                "high": 600000
+                            },
+                            "projectA": {
+                                "low": 150000,
+                                "high": 350000
+                            }
+                        }
+                    },
+                    "taxRate": 1,
+                    "initialTaxRate": 1,
+                    "finalTaxRate": 33,
+                    "conditions": [
+                        {
+                            "name": "No Project",
+                            "id": 0,
+                            "parameter": "no_project",
+                            "key": "noProject"
+                        },
+                        {
+                            "name": "Project",
+                            "id": 1,
+                            "parameter": "project_a",
+                            "key": "projectA"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "assign-role",
+                "data": {
+                    "role": 1,
+                    "wallet": [
+                        {
+                            "balance": 50000,
+                            "shares": 5,
+                            "cashForSniping": 250000
+                        },
+                        {
+                            "balance": 41900,
+                            "shares": 6,
+                            "cashForSniping": 250000
+                        },
+                        {
+                            "balance": 50000,
+                            "shares": 5,
+                            "cashForSniping": 250000
+                        }
+                    ],
+                    "boundaries": {
+                        "developer": {
+                            "noProject": {
+                                "low": 200000,
+                                "high": 500000
+                            },
+                            "projectA": {
+                                "low": 500000,
+                                "high": 2750000
+                            }
+                        },
+                        "owner": {
+                            "noProject": {
+                                "low": 350000,
+                                "high": 600000
+                            },
+                            "projectA": {
+                                "low": 150000,
+                                "high": 350000
+                            }
+                        }
+                    },
+                    "taxRate": 1,
+                    "initialTaxRate": 1,
+                    "finalTaxRate": 33,
+                    "conditions": [
+                        {
+                            "name": "No Project",
+                            "id": 0,
+                            "parameter": "no_project",
+                            "key": "noProject"
+                        },
+                        {
+                            "name": "Project",
+                            "id": 1,
+                            "parameter": "project_a",
+                            "key": "projectA"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "assign-role",
+                "data": {
+                    "role": 1,
+                    "wallet": [
+                        {
+                            "balance": 50000,
+                            "shares": 5,
+                            "cashForSniping": 250000
+                        },
+                        {
+                            "balance": 50000,
+                            "shares": 5,
+                            "cashForSniping": 250000
+                        },
+                        {
+                            "balance": 50000,
+                            "shares": 5,
+                            "cashForSniping": 250000
+                        }
+                    ],
+                    "boundaries": {
+                        "developer": {
+                            "noProject": {
+                                "low": 200000,
+                                "high": 500000
+                            },
+                            "projectA": {
+                                "low": 500000,
+                                "high": 2750000
+                            }
+                        },
+                        "owner": {
+                            "noProject": {
+                                "low": 350000,
+                                "high": 600000
+                            },
+                            "projectA": {
+                                "low": 150000,
+                                "high": 350000
+                            }
+                        }
+                    },
+                    "taxRate": 1,
+                    "initialTaxRate": 1,
+                    "finalTaxRate": 33,
+                    "conditions": [
+                        {
+                            "name": "No Project",
+                            "id": 0,
+                            "parameter": "no_project",
+                            "key": "noProject"
+                        },
+                        {
+                            "name": "Project",
+                            "id": 1,
+                            "parameter": "project_a",
+                            "key": "projectA"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "players-known",
+                "data": {
+                    "players": [
+                        {
+                            "number": 1,
+                            "role": 3,
+                            "tag": "Owner 1"
+                        },
+                        {
+                            "number": 2,
+                            "role": 2,
+                            "tag": "Developer"
+                        },
+                        {
+                            "number": 3,
+                            "role": 3,
+                            "tag": "Owner 2"
+                        },
+                        {
+                            "number": 4,
+                            "role": 1,
+                            "tag": "Speculator 1"
+                        },
+                        {
+                            "number": 5,
+                            "role": 1,
+                            "tag": "Speculator 2"
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 0
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 1
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 1
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 1
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733495130360
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 1
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 2
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "declaration-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "declaration-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "declaration-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733495216373
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "declarations-published",
+                "data": {
+                    "declarations": [
+                        {
+                            "id": 1,
+                            "name": "Breezy Unicorn Lot",
+                            "owner": "Purple",
+                            "role": 3,
+                            "number": 1,
+                            "d": [
+                                387000,
+                                316000,
+                                0
+                            ],
+                            "available": [
+                                true,
+                                true,
+                                true
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "Chief Bird Lot",
+                            "owner": "Teal",
+                            "role": 2,
+                            "number": 2,
+                            "d": [
+                                197000,
+                                1096000,
+                                0
+                            ],
+                            "available": [
+                                true,
+                                true,
+                                true
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "name": "Contemporary Crocodile Lot",
+                            "owner": "Rose",
+                            "role": 3,
+                            "number": 3,
+                            "d": [
+                                568000,
+                                299000,
+                                0
+                            ],
+                            "available": [
+                                true,
+                                true,
+                                true
+                            ]
+                        }
+                    ],
+                    "winningCondition": 1
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 2
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 3
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "speculation-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "speculation-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733495113762
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "owner": 1,
+                    "sniped": true,
+                    "snipeProfit": 5000,
+                    "condition": 1,
+                    "declaration": 316000
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "phase": 4,
+                    "property": 1,
+                    "condition": 1,
+                    "value": 326000,
+                    "declaration": 316000,
+                    "sniped": true,
+                    "speculator": [
+                        4
+                    ],
+                    "snipeProfit": 5000,
+                    "taxes": 3160,
+                    "owner": 1,
+                    "role": 3,
+                    "total": 317840
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "owner": 2,
+                    "sniped": true,
+                    "snipeProfit": 1500,
+                    "condition": 1,
+                    "declaration": 1096000
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "owner": 2,
+                    "sniped": true,
+                    "snipeProfit": 1500,
+                    "condition": 1,
+                    "declaration": 1096000
+                }
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "phase": 4,
+                    "property": 2,
+                    "condition": 1,
+                    "value": 1102000,
+                    "declaration": 1096000,
+                    "sniped": true,
+                    "speculator": [
+                        4,
+                        5
+                    ],
+                    "snipeProfit": 1500,
+                    "taxes": 10960,
+                    "owner": 2,
+                    "role": 2,
+                    "total": 1089540
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "owner": 3,
+                    "sniped": true,
+                    "snipeProfit": 1000,
+                    "condition": 1,
+                    "declaration": 299000
+                }
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "phase": 4,
+                    "property": 3,
+                    "condition": 1,
+                    "value": 301000,
+                    "declaration": 299000,
+                    "sniped": true,
+                    "speculator": [
+                        5
+                    ],
+                    "snipeProfit": 1000,
+                    "taxes": 2990,
+                    "owner": 3,
+                    "role": 3,
+                    "total": 297010
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 3
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 4
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "first-snipes",
+                "data": {
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 4,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 1,
+                                "role": 3
+                            },
+                            "profit": 5000
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "first-snipes",
+                "data": {
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 4,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 2,
+                                "role": 2
+                            },
+                            "profit": 1500
+                        },
+                        {
+                            "player": {
+                                "number": 5,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 2,
+                                "role": 2
+                            },
+                            "profit": 1500
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "first-snipes",
+                "data": {
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 5,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 3,
+                                "role": 3
+                            },
+                            "profit": 1000
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "first-snipes",
+                "data": {
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 4,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 1,
+                                "role": 3
+                            },
+                            "profit": 5000
+                        },
+                        {
+                            "player": {
+                                "number": 4,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 2,
+                                "role": 2
+                            },
+                            "profit": 1500
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "first-snipes",
+                "data": {
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 5,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 2,
+                                "role": 2
+                            },
+                            "profit": 1500
+                        },
+                        {
+                            "player": {
+                                "number": 5,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 3,
+                                "role": 3
+                            },
+                            "profit": 1000
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733495116779
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "value-signals",
+                "data": {
+                    "signals": [
+                        8743,
+                        8034,
+                        0
+                    ],
+                    "publicSignal": [
+                        0,
+                        5646.3,
+                        0
+                    ],
+                    "condition": 1,
+                    "taxRate": 33
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "value-signals",
+                "data": {
+                    "signals": [
+                        8763,
+                        8637,
+                        0
+                    ],
+                    "publicSignal": [
+                        0,
+                        5646.3,
+                        0
+                    ],
+                    "condition": 1,
+                    "taxRate": 33
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "value-signals",
+                "data": {
+                    "signals": [
+                        8854,
+                        8026,
+                        0
+                    ],
+                    "publicSignal": [
+                        0,
+                        5646.3,
+                        0
+                    ],
+                    "condition": 1,
+                    "taxRate": 33
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "value-signals",
+                "data": {
+                    "signals": [
+                        8821,
+                        8360,
+                        0
+                    ],
+                    "publicSignal": [
+                        0,
+                        5646.3,
+                        0
+                    ],
+                    "condition": 1,
+                    "taxRate": 33
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "value-signals",
+                "data": {
+                    "signals": [
+                        8322,
+                        8201,
+                        0
+                    ],
+                    "publicSignal": [
+                        0,
+                        5646.3,
+                        0
+                    ],
+                    "condition": 1,
+                    "taxRate": 33
+                }
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 4
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 5
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733495161802
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 5
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 6
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "add-order",
+                "data": {
+                    "order": {
+                        "id": 1,
+                        "sender": 1,
+                        "price": 8100,
+                        "quantity": 1,
+                        "type": "ask",
+                        "condition": 1
+                    }
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "add-order",
+                "data": {
+                    "order": {
+                        "id": 2,
+                        "sender": 3,
+                        "price": 8125,
+                        "quantity": 1,
+                        "type": "ask",
+                        "condition": 1
+                    }
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "asset-movement",
+                "data": {
+                    "condition": 1,
+                    "movement": {
+                        "type": "sale",
+                        "quantity": 1,
+                        "price": 8100,
+                        "total": 8100
+                    },
+                    "balance": 68100,
+                    "shares": 5
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "asset-movement",
+                "data": {
+                    "condition": 1,
+                    "movement": {
+                        "type": "purchase",
+                        "quantity": 1,
+                        "price": 8100,
+                        "total": 8100
+                    },
+                    "balance": 41900,
+                    "shares": 6
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "contract-fulfilled",
+                "data": {
+                    "from": 1,
+                    "to": 4,
+                    "price": 8100,
+                    "condition": 1,
+                    "median": 8100
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "delete-order",
+                "data": {
+                    "order": {
+                        "id": 1,
+                        "type": "ask",
+                        "condition": 1
+                    }
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "asset-movement",
+                "data": {
+                    "condition": 1,
+                    "movement": {
+                        "type": "sale",
+                        "quantity": 1,
+                        "price": 8125,
+                        "total": 8125
+                    },
+                    "balance": 68125,
+                    "shares": 5
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "asset-movement",
+                "data": {
+                    "condition": 1,
+                    "movement": {
+                        "type": "purchase",
+                        "quantity": 1,
+                        "price": 8125,
+                        "total": 8125
+                    },
+                    "balance": 291875,
+                    "shares": 31
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "contract-fulfilled",
+                "data": {
+                    "from": 3,
+                    "to": 2,
+                    "price": 8125,
+                    "condition": 1,
+                    "median": 8112.5
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "delete-order",
+                "data": {
+                    "order": {
+                        "id": 2,
+                        "type": "ask",
+                        "condition": 1
+                    }
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733495221888
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 6
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 7
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "declaration-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "declaration-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "declaration-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733495281894
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "declarations-published",
+                "data": {
+                    "declarations": [
+                        {
+                            "id": 1,
+                            "name": "Breezy Unicorn Lot",
+                            "owner": "Purple",
+                            "role": 3,
+                            "number": 1,
+                            "d": [
+                                0,
+                                324000,
+                                0
+                            ],
+                            "available": [
+                                false,
+                                true,
+                                false
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "Chief Bird Lot",
+                            "owner": "Teal",
+                            "role": 2,
+                            "number": 2,
+                            "d": [
+                                0,
+                                1099000,
+                                0
+                            ],
+                            "available": [
+                                false,
+                                true,
+                                false
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "name": "Contemporary Crocodile Lot",
+                            "owner": "Rose",
+                            "role": 3,
+                            "number": 3,
+                            "d": [
+                                0,
+                                300000,
+                                0
+                            ],
+                            "available": [
+                                false,
+                                true,
+                                false
+                            ]
+                        }
+                    ],
+                    "winningCondition": 1
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 7
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 8
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "speculation-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "speculation-received",
+                "data": {}
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "owner": 1,
+                    "sniped": true,
+                    "snipeProfit": 1000,
+                    "condition": 1,
+                    "declaration": 324000
+                }
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "phase": 9,
+                    "property": 1,
+                    "condition": 1,
+                    "value": 326000,
+                    "declaration": 324000,
+                    "sniped": true,
+                    "speculator": [
+                        5
+                    ],
+                    "snipeProfit": 1000,
+                    "taxes": 106920,
+                    "owner": 1,
+                    "role": 3,
+                    "total": 218080
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "owner": 2,
+                    "sniped": true,
+                    "snipeProfit": 1500,
+                    "condition": 1,
+                    "declaration": 1099000
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "phase": 9,
+                    "property": 2,
+                    "condition": 1,
+                    "value": 1102000,
+                    "declaration": 1099000,
+                    "sniped": true,
+                    "speculator": [
+                        4
+                    ],
+                    "snipeProfit": 1500,
+                    "taxes": 362670,
+                    "owner": 2,
+                    "role": 2,
+                    "total": 737830
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "owner": 3,
+                    "sniped": true,
+                    "snipeProfit": 250,
+                    "condition": 1,
+                    "declaration": 300000
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "owner": 3,
+                    "sniped": true,
+                    "snipeProfit": 250,
+                    "condition": 1,
+                    "declaration": 300000
+                }
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "phase": 9,
+                    "property": 3,
+                    "condition": 1,
+                    "value": 301000,
+                    "declaration": 300000,
+                    "sniped": true,
+                    "speculator": [
+                        4,
+                        5
+                    ],
+                    "snipeProfit": 250,
+                    "taxes": 99000,
+                    "owner": 3,
+                    "role": 3,
+                    "total": 201750
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "final-price",
+                "data": {
+                    "price": 5685.9,
+                    "winningCondition": 1
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "tax-income",
+                "data": {
+                    "amount": 36530,
+                    "condition": 1
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "phase": 9,
+                    "condition": 1,
+                    "owner": 1,
+                    "role": 3,
+                    "taxes": 0,
+                    "snipeProfit": 0,
+                    "total": 36530
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "tax-income",
+                "data": {
+                    "amount": 408138,
+                    "condition": 1
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "phase": 9,
+                    "condition": 1,
+                    "owner": 2,
+                    "role": 2,
+                    "taxes": 0,
+                    "snipeProfit": 0,
+                    "total": 408138
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "tax-income",
+                "data": {
+                    "amount": 36555,
+                    "condition": 1
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "phase": 9,
+                    "condition": 1,
+                    "owner": 3,
+                    "role": 3,
+                    "taxes": 0,
+                    "snipeProfit": 0,
+                    "total": 36555
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "tax-income",
+                "data": {
+                    "amount": 16015,
+                    "condition": 1
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "phase": 9,
+                    "condition": 1,
+                    "owner": 4,
+                    "role": 1,
+                    "taxes": 0,
+                    "snipeProfit": 16015,
+                    "total": 0
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "tax-income",
+                "data": {
+                    "amount": 18430,
+                    "condition": 1
+                }
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "profit",
+                "data": {
+                    "round": 1,
+                    "phase": 9,
+                    "condition": 1,
+                    "owner": 5,
+                    "role": 1,
+                    "taxes": 0,
+                    "snipeProfit": 18430,
+                    "total": 0
+                }
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "total-profit",
+                "data": {
+                    "amount": 572450
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "total-profit",
+                "data": {
+                    "amount": 2235508
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "total-profit",
+                "data": {
+                    "amount": 535315
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "total-profit",
+                "data": {
+                    "amount": 24265
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "total-profit",
+                "data": {
+                    "amount": 22180
+                }
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "second-snipes",
+                "data": {
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 5,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 1,
+                                "role": 3
+                            },
+                            "profit": 1000
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "second-snipes",
+                "data": {
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 4,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 2,
+                                "role": 2
+                            },
+                            "profit": 1500
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "second-snipes",
+                "data": {
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 4,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 3,
+                                "role": 3
+                            },
+                            "profit": 250
+                        },
+                        {
+                            "player": {
+                                "number": 5,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 3,
+                                "role": 3
+                            },
+                            "profit": 250
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "second-snipes",
+                "data": {
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 4,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 2,
+                                "role": 2
+                            },
+                            "profit": 1500
+                        },
+                        {
+                            "player": {
+                                "number": 4,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 3,
+                                "role": 3
+                            },
+                            "profit": 250
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "second-snipes",
+                "data": {
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 5,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 1,
+                                "role": 3
+                            },
+                            "profit": 1000
+                        },
+                        {
+                            "player": {
+                                "number": 5,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 3,
+                                "role": 3
+                            },
+                            "profit": 250
+                        }
+                    ]
+                }
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "set-timer",
+                "data": {
+                    "end": 1733495219971
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 8
+            }
+        },
+        {
+            "sent": {
+                "type": "phase-transition",
+                "data": {
+                    "round": 1,
+                    "phase": 9
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 9
+            }
+        },
+        {
+            "sent": {
+                "type": "reset-timer",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 9
+            }
+        },
+        {
+            "sent": {
+                "type": "round-end",
+                "data": {
+                    "round": 1
+                }
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 9
+            }
+        },
+        {
+            "sent": {
+                "type": "round-summary",
+                "data": {
+                    "round": 1,
+                    "condition": 1,
+                    "value": 326000,
+                    "firstDeclaration": 316000,
+                    "firstTaxes": 3160,
+                    "firstRepurchase": -5000,
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 5,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 1,
+                                "role": 3
+                            },
+                            "profit": 1000
+                        }
+                    ],
+                    "market": {
+                        "balance": 68100,
+                        "shares": 5,
+                        "price": 5685.9
+                    },
+                    "secondDeclaration": 324000,
+                    "secondTaxes": 106920,
+                    "secondRepurchase": -1000
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 9
+            }
+        },
+        {
+            "sent": {
+                "type": "round-summary",
+                "data": {
+                    "round": 1,
+                    "condition": 1,
+                    "value": 1102000,
+                    "firstDeclaration": 1096000,
+                    "firstTaxes": 10960,
+                    "firstRepurchase": -3000,
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 4,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 2,
+                                "role": 2
+                            },
+                            "profit": 1500
+                        }
+                    ],
+                    "market": {
+                        "balance": 291875,
+                        "shares": 31,
+                        "price": 5685.9
+                    },
+                    "secondDeclaration": 1099000,
+                    "secondTaxes": 362670,
+                    "secondRepurchase": -1500
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 9
+            }
+        },
+        {
+            "sent": {
+                "type": "round-summary",
+                "data": {
+                    "round": 1,
+                    "condition": 1,
+                    "value": 301000,
+                    "firstDeclaration": 299000,
+                    "firstTaxes": 2990,
+                    "firstRepurchase": -1000,
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 4,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 3,
+                                "role": 3
+                            },
+                            "profit": 250
+                        },
+                        {
+                            "player": {
+                                "number": 5,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 3,
+                                "role": 3
+                            },
+                            "profit": 250
+                        }
+                    ],
+                    "market": {
+                        "balance": 68125,
+                        "shares": 5,
+                        "price": 5685.9
+                    },
+                    "secondDeclaration": 300000,
+                    "secondTaxes": 99000,
+                    "secondRepurchase": -500
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 9
+            }
+        },
+        {
+            "sent": {
+                "type": "round-summary",
+                "data": {
+                    "round": 1,
+                    "condition": 1,
+                    "firstRepurchase": 6500,
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 4,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 2,
+                                "role": 2
+                            },
+                            "profit": 1500
+                        },
+                        {
+                            "player": {
+                                "number": 4,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 3,
+                                "role": 3
+                            },
+                            "profit": 250
+                        }
+                    ],
+                    "market": {
+                        "balance": 41900,
+                        "shares": 6,
+                        "price": 5685.9
+                    },
+                    "secondRepurchase": 1750
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 9
+            }
+        },
+        {
+            "sent": {
+                "type": "round-summary",
+                "data": {
+                    "round": 1,
+                    "condition": 1,
+                    "firstRepurchase": 2500,
+                    "snipes": [
+                        {
+                            "player": {
+                                "number": 5,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 1,
+                                "role": 3
+                            },
+                            "profit": 1000
+                        },
+                        {
+                            "player": {
+                                "number": 5,
+                                "role": 1
+                            },
+                            "target": {
+                                "number": 3,
+                                "role": 3
+                            },
+                            "profit": 250
+                        }
+                    ],
+                    "market": {
+                        "balance": 50000,
+                        "shares": 5,
+                        "price": 5685.9
+                    },
+                    "secondRepurchase": 1250
+                }
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 9
+            }
+        },
+        {
+            "sent": {
+                "type": "reward",
+                "data": {
+                    "number": 1,
+                    "round": 1,
+                    "reward": 30.32,
+                    "basePoints": 200000,
+                    "showupFee": 5,
+                    "gameFee": 25.32,
+                    "profit": 306449.5,
+                    "points": 506449.5,
+                    "factor": 20000,
+                    "exchange": 0.00005,
+                    "paymentToken": "EV"
+                }
+            },
+            "meta": {
+                "recipient": 1,
+                "round": 1,
+                "phase": 9
+            }
+        },
+        {
+            "sent": {
+                "type": "reward",
+                "data": {
+                    "number": 2,
+                    "round": 1,
+                    "reward": 28.84,
+                    "basePoints": 0,
+                    "showupFee": 5,
+                    "gameFee": 23.84,
+                    "profit": 1192007.9,
+                    "points": 1192007.9,
+                    "factor": 50000,
+                    "exchange": 0.00002,
+                    "paymentToken": "VV"
+                }
+            },
+            "meta": {
+                "recipient": 2,
+                "round": 1,
+                "phase": 9
+            }
+        },
+        {
+            "sent": {
+                "type": "reward",
+                "data": {
+                    "number": 3,
+                    "round": 1,
+                    "reward": 29.7,
+                    "basePoints": 200000,
+                    "showupFee": 5,
+                    "gameFee": 24.7,
+                    "profit": 294064.5,
+                    "points": 494064.5,
+                    "factor": 20000,
+                    "exchange": 0.00005,
+                    "paymentToken": "CS"
+                }
+            },
+            "meta": {
+                "recipient": 3,
+                "round": 1,
+                "phase": 9
+            }
+        },
+        {
+            "sent": {
+                "type": "reward",
+                "data": {
+                    "number": 4,
+                    "round": 1,
+                    "reward": 29.21,
+                    "basePoints": 400000,
+                    "showupFee": 5,
+                    "gameFee": 24.21,
+                    "profit": 84265.4,
+                    "points": 484265.4,
+                    "factor": 20000,
+                    "exchange": 0.00005,
+                    "paymentToken": "CR"
+                }
+            },
+            "meta": {
+                "recipient": 4,
+                "round": 1,
+                "phase": 9
+            }
+        },
+        {
+            "sent": {
+                "type": "reward",
+                "data": {
+                    "number": 5,
+                    "round": 1,
+                    "reward": 29.11,
+                    "basePoints": 400000,
+                    "showupFee": 5,
+                    "gameFee": 24.11,
+                    "profit": 82179.5,
+                    "points": 482179.5,
+                    "factor": 20000,
+                    "exchange": 0.00005,
+                    "paymentToken": "DJ"
+                }
+            },
+            "meta": {
+                "recipient": 5,
+                "round": 1,
+                "phase": 9
+            }
+        },
+        {
+            "sent": {
+                "type": "game-over",
+                "data": {}
+            },
+            "meta": {
+                "recipient": "all",
+                "round": 1,
+                "phase": 9
+            }
+        }
+    ]
+}

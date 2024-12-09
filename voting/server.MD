@@ -173,7 +173,8 @@ Owner format:
 ```
 ### compensation-requests-received
 This message is similar to the previous one but is intended for the developer, who must be able to see all compensation requests to prepare an offer. Notice the slight difference (in bold) in the names:
-_compensation-request-received_ vs _compensation-request**s**-received_
+_compensation-request-received_ (previous) vs _compensation-request**s**-received_ (current)
+This message is sent out only when all compensation requests are available.
 ```
 {
     "type": "compensation-requests-received",
@@ -201,6 +202,95 @@ _compensation-request-received_ vs _compensation-request**s**-received_
 }
 ```
 ## Phase 4 (Offer)
+### compensation-offer-received
+Feedback from the server to the developer, ackowledging the compensation offer has been received.
+```
+{
+    "type": "compensation-offer-received",
+    "data": {
+        "compensationOffers": [
+            null,
+            123000
+        ]
+    }
+}
+```
 ## Phase 5 (Deliberation)
+### compensation-offer-made
+Information sent to owners that the developer has sent out a compensation offer.
+```
+{
+    "type": "compensation-offer-made",
+    "data": {
+        "compensationOffers": [
+            null,
+            123000
+        ]
+    }
+}
+```
+### message-received
+During this phase players exchange messages on different channels. Each channel is identified by its participants (as an array of ids). The messages are forwarded only to the participants.
+```
+{
+    "type": "message-received",
+    "data": {
+        "sender": 1,
+        "to": [
+            2,
+            3
+        ],
+        "number": 0,
+        "text": "I don't know",
+        "time": 1733497007316
+    }
+}
+```
 ## Phase 6 (Voting)
+### compensation-decision-received
+A compensation decision, or vote, sums up with all other owners' votes to form the final outcome. This is a feedback message from the server that the vote has been received.
+```
+{
+    "type": "compensation-decision-received",
+    "data": {}
+}
+```
+### final-profit
+As all votes are available, the outcome is shared with all players, in the form of the vote count for the proposal and the profit for the player
+```
+{
+    "type": "final-profit",
+    "data": {
+        "condition": 0,
+        "tally": 2,
+        "value": 441000,
+        "compensation": null
+    }
+}
+```
 ## Phase 7 (Results)
+### round-summary
+Detailed information on how the round went for one specific player.
+```
+{
+    "type": "round-summary",
+    "data": {
+        "round": 0,
+        "condition": 0,
+        "value": 441000,
+        "tally": 2,
+        "compensation": null,
+        "profit": 441000
+    }
+}
+```
+### round-end
+The round has ended.
+```
+{
+    "type": "round-end",
+    "data": {
+        "round": 0
+    }
+}
+```

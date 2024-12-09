@@ -43,7 +43,7 @@ This event is triggered when a player joins or rejoins the game. The `gameId` is
 }
 ```
 
-## Phase 0
+## Phase 0 (Introduction)
 
 ### Player is Ready
 Players declare themselves ready to begin the game. The `gameId` is an integer.
@@ -55,11 +55,11 @@ Players declare themselves ready to begin the game. The `gameId` is an integer.
 }
 ```
 
-## Phase 1
+## Phase 1 (Presentation)
 
 In Phase 1, no specific actions are sent by players. This phase is for data presentation only.
 
-## Phase 2
+## Phase 2 (Declaration)
 
 ### Declaration
 Each player owning a property should declare expected revenue for the round. The `declaration` is an array where:
@@ -81,7 +81,7 @@ All values in the `declaration` array are integers, representing expected revenu
 }
 ```
 
-## Phase 3
+## Phase 3 (Speculation)
 
 ### Speculation
 Speculators may challenge declarations made by property owners. The `snipe` array contains arrays of player numbers (integers) for each condition (`0` and `1`), representing which owners' declarations are being challenged.
@@ -102,11 +102,11 @@ Speculators may challenge declarations made by property owners. The `snipe` arra
 }
 ```
 
-## Phases 4 & 5
+## Phases 4 (Reconciliation) & 5 (Transition)
 
 These phases are waiting phases where no specific actions are expected from players.
 
-## Phase 6
+## Phase 6 (Market)
 
 ### Post Order
 In the market phase, players can post orders to either buy (bid) or sell (ask) assets. The `order` object contains:
@@ -144,7 +144,7 @@ A player can cancel an order they previously submitted. The `id` is the unique i
 }
 ```
 
-## Phase 7
+## Phase 7 (Declaration)
 
 ### Declaration
 Once the winning condition is determined, a second declaration is made, but only for the winning condition. This is similar to Phase 2, but only the winning condition is required.
@@ -159,7 +159,7 @@ Once the winning condition is determined, a second declaration is made, but only
 }
 ```
 
-## Phase 8
+## Phase 8 (Speculation)
 
 ### Speculation
 In this phase, another round of speculations occurs. Speculators may once again challenge property owners’ declarations. The format is the same as in Phase 3.
@@ -178,7 +178,7 @@ In this phase, another round of speculations occurs. Speculators may once again 
 }
 ```
 
-## Phase 9
+## Phase 9 (Results)
 
 Players are shown their results, and the next round will begin after this phase.
 

@@ -173,7 +173,7 @@ Owner format:
 ```
 ### compensation-requests-received
 This message is similar to the previous one but is intended for the developer, who must be able to see all compensation requests to prepare an offer. Notice the slight difference (in bold) in the names:
-compensation-request-received vs compensation-request**s**-received
+_compensation-request-received_ vs _compensation-request**s**-received_
 ```
 {
     "type": "compensation-requests-received",

@@ -164,6 +164,8 @@ Once the winning condition is determined, a second declaration is made, but only
 ### Speculation
 In this phase, another round of speculations occurs. Speculators may once again challenge property owners’ declarations. The format is the same as in Phase 3.
 
+Notice that snipe is an array of arrays, one per condition. If the winning condition is no project, the message would look like this:
+
 ```
 {
     "gameId": 888,               # Integer
@@ -178,7 +180,7 @@ In this phase, another round of speculations occurs. Speculators may once again 
 }
 ```
 
-Notice that snipe is an array of arrays, one per condition. If the winning condition is project, the message would look like this:
+If the winning condition is project, the message would look like this:
 
 ```
 {

@@ -182,18 +182,36 @@ In phase 7 a second declaration is submitted, similarly to phase 2.
 
 In phase 8 happens a new round of speculations.
 
-### Speculation
+In this phase, another round of speculations occurs. Speculators may once again challenge property owners’ declarations. The format is the same as in Phase 3.
+
+Notice that snipe is an array of arrays, one per condition. If the winning condition is no project, the message would look like this:
 
 ```
 {
-    "gameId": 888,
-    "type": "done-speculating",
+    "gameId": 888,               # Integer
+    "type": "done-speculating",  # String
     "snipe": [
         [
-            2,
-            3
+            2,                  # Integer (Owner number)
+            3                   # Integer (Owner number)
         ],
-        []
+        []                      # No speculators for the second condition
+    ]
+}
+```
+
+If the winning condition is project, the message would look like this:
+
+```
+{
+    "gameId": 888,               # Integer
+    "type": "done-speculating",  # String
+    "snipe": [
+        [],                      # No speculators for the first condition
+        [
+            2,                  # Integer (Owner number)
+            3                   # Integer (Owner number)
+        ],
     ]
 }
 ```

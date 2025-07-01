@@ -178,6 +178,22 @@ In this phase, another round of speculations occurs. Speculators may once again 
 }
 ```
 
+Notice that snipe is an array of arrays, one per condition. If the winning condition is project, the message would look like this:
+
+```
+{
+    "gameId": 888,               # Integer
+    "type": "done-speculating",  # String
+    "snipe": [
+        [],                      # No speculators for the first condition
+        [
+            2,                  # Integer (Owner number)
+            3                   # Integer (Owner number)
+        ],
+    ]
+}
+```
+
 ## Phase 9 (Results)
 
 Players are shown their results, and the next round will begin after this phase.
